@@ -1,0 +1,4402 @@
+[
+  {
+    "case": "conditioning_k10_0",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "7951a9dc76fadfc5f2a50bfe255dd87c47f22d5fb7d8a0a47b7091390ce05298",
+    "reference": {
+      "objective": 8.906355143915281,
+      "primal": 2.6073545960708684e-15,
+      "cross_solver_objective_difference": 5.819899581380579e-13,
+      "numerical_dual_lower_bound": 8.906355143915436,
+      "numerical_relative_gap": -1.7351996695685755e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 7.646727462166267e-15,
+        "stationarity": 8.544625774361635e-14,
+        "complementarity": 1.1006008436930142e-14,
+        "residual": 8.544625774361635e-14,
+        "objective": 8.906355143914883,
+        "iterations": 6,
+        "active": 15,
+        "ms": 1.7973079993680585,
+        "relative_objective_difference": 4.4676405285443786e-14,
+        "relative_vector_difference": 1.5427267284265502e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.000582701,
+        "ms": 16.849826999532524,
+        "primal": 1.2468452017751069e-10,
+        "stationarity": 1.4493763611207723e-10,
+        "complementarity": 2.2727057224059608e-10,
+        "residual": 2.2727057224059608e-10,
+        "objective": 8.906355142552464,
+        "relative_objective_difference": 1.530162892061692e-10,
+        "relative_vector_difference": 2.368798785344305e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.010648316,
+        "ms": 25.59945000029984,
+        "primal": 0.0,
+        "stationarity": 1.1745821836937859e-05,
+        "complementarity": 2.076147618893253e-09,
+        "residual": 1.1745821836937859e-05,
+        "objective": 8.906355352802095,
+        "relative_objective_difference": 2.3453681135406476e-08,
+        "relative_vector_difference": 1.668518943986878e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008762685,
+        "ms": 23.321995002334006,
+        "primal": 0.0,
+        "stationarity": 2.4215106200612557e-06,
+        "complementarity": 2.4274260496496167e-11,
+        "residual": 2.4215106200612557e-06,
+        "objective": 8.906355145855958,
+        "relative_objective_difference": 2.178979976784307e-10,
+        "relative_vector_difference": 4.686506018743729e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004193931999907363,
+        "ms": 20.117760002904106,
+        "primal": 2.060485282976634e-10,
+        "stationarity": 1.3097982377103625e-06,
+        "complementarity": 3.755782830306671e-10,
+        "residual": 1.3097982377103625e-06,
+        "objective": 8.90635514612453,
+        "relative_objective_difference": 2.480531751084401e-10,
+        "relative_vector_difference": 7.819639582062972e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_1",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "79806b8922f210a718464d2ac775c673d805d81d5a9bd2f433f4d6a57c2a88e0",
+    "reference": {
+      "objective": 4.0743561020154555,
+      "primal": 4.1689702519207385e-16,
+      "cross_solver_objective_difference": 1.2632808683820048e-10,
+      "numerical_dual_lower_bound": 4.074356102015405,
+      "numerical_relative_gap": 1.2425563366408735e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 3.593797000480721e-16,
+        "stationarity": 1.3193484925366577e-15,
+        "complementarity": 8.288310048266413e-17,
+        "residual": 1.3193484925366577e-15,
+        "objective": 4.074356102015406,
+        "iterations": 5,
+        "active": 16,
+        "ms": 1.7850999975053128,
+        "relative_objective_difference": 1.220757102664718e-14,
+        "relative_vector_difference": 7.032104496785388e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0005585750000000001,
+        "ms": 17.099343000154477,
+        "primal": 4.533547241528779e-12,
+        "stationarity": 1.3291187195027713e-11,
+        "complementarity": 5.874239394787164e-12,
+        "residual": 1.3291187195027713e-11,
+        "objective": 4.0743561019813015,
+        "relative_objective_difference": 8.382677433190904e-12,
+        "relative_vector_difference": 1.8843420888149698e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008457542,
+        "ms": 23.83700500286068,
+        "primal": 0.0,
+        "stationarity": 1.9916319873602306e-06,
+        "complementarity": 2.3613565013243687e-10,
+        "residual": 1.9916319873602306e-06,
+        "objective": 4.074356109826215,
+        "relative_objective_difference": 1.9170536288443186e-09,
+        "relative_vector_difference": 3.3408778853532824e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008993687,
+        "ms": 25.80625300106476,
+        "primal": 0.0,
+        "stationarity": 5.014428002275485e-08,
+        "complementarity": 9.777061650391873e-12,
+        "residual": 5.014428002275485e-08,
+        "objective": 4.074356102530161,
+        "relative_objective_difference": 1.2632808683820048e-10,
+        "relative_vector_difference": 1.0016806918674833e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0052857349983241875,
+        "ms": 21.01211199988029,
+        "primal": 1.1266569303982135e-10,
+        "stationarity": 7.316159724946975e-07,
+        "complementarity": 5.921421722332253e-10,
+        "residual": 7.316159724946975e-07,
+        "objective": 4.0743561046130665,
+        "relative_objective_difference": 6.375512964836371e-10,
+        "relative_vector_difference": 9.128575942790152e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_2",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "47317d42074cb69bfb8e34e550fd9bc9929135944add568e84ea2bd11f9d80bd",
+    "reference": {
+      "objective": 9.276753823828551,
+      "primal": 1.4118452571560606e-12,
+      "cross_solver_objective_difference": 7.812577591675206e-13,
+      "numerical_dual_lower_bound": 9.276753823829273,
+      "numerical_relative_gap": -7.774280642696405e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 4.792194105687811e-16,
+        "stationarity": 3.699164174322782e-15,
+        "complementarity": 7.1467587563817e-16,
+        "residual": 3.699164174322782e-15,
+        "objective": 9.276753823829246,
+        "iterations": 6,
+        "active": 15,
+        "ms": 1.740322997648036,
+        "relative_objective_difference": 7.487053525355406e-14,
+        "relative_vector_difference": 5.089492016103219e-12,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001284493,
+        "ms": 19.581517997721676,
+        "primal": 1.4118452571560606e-12,
+        "stationarity": 3.956470962986687e-12,
+        "complementarity": 2.2497703277033553e-12,
+        "residual": 3.956470962986687e-12,
+        "objective": 9.276753823828551,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007661338,
+        "ms": 23.240973001520615,
+        "primal": 9.934512732944598e-10,
+        "stationarity": 1.4516670036995735e-05,
+        "complementarity": 7.932739646533997e-09,
+        "residual": 1.4516670036995735e-05,
+        "objective": 9.27675413437107,
+        "relative_objective_difference": 3.347534318795563e-08,
+        "relative_vector_difference": 1.3883345360558081e-05,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.014422497,
+        "ms": 31.938007999997353,
+        "primal": 0.0,
+        "stationarity": 1.7721511391223794e-07,
+        "complementarity": 9.299748967542302e-14,
+        "residual": 1.7721511391223794e-07,
+        "objective": 9.276753823835799,
+        "relative_objective_difference": 7.812577591675206e-13,
+        "relative_vector_difference": 2.7300698557685803e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004377795998152578,
+        "ms": 20.633059000829235,
+        "primal": 2.914858729036288e-10,
+        "stationarity": 3.042955985257235e-06,
+        "complementarity": 4.703679242311328e-10,
+        "residual": 3.042955985257235e-06,
+        "objective": 9.276753821122707,
+        "relative_objective_difference": 2.9168009508351017e-10,
+        "relative_vector_difference": 2.7775753486284275e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_3",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "4120e0d692a1d2a11f3b3b337d2102559096806614e90afe4ffe6a91c1235ffa",
+    "reference": {
+      "objective": 6.5593624674968956,
+      "primal": 2.982966313181053e-14,
+      "cross_solver_objective_difference": 1.1535471783220372e-10,
+      "numerical_dual_lower_bound": 6.55936246749734,
+      "numerical_relative_gap": -6.770310560677562e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 1.702196256198628e-16,
+        "stationarity": 1.3782269091299776e-15,
+        "complementarity": 1.720000300265694e-16,
+        "residual": 1.3782269091299776e-15,
+        "objective": 6.559362467497342,
+        "iterations": 6,
+        "active": 15,
+        "ms": 1.8514599978516344,
+        "relative_objective_difference": 6.810932424041627e-14,
+        "relative_vector_difference": 2.6118976870353197e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.000635952,
+        "ms": 17.49018500049715,
+        "primal": 1.523856744076473e-10,
+        "stationarity": 3.474344865561278e-10,
+        "complementarity": 1.610012741908804e-10,
+        "residual": 3.474344865561278e-10,
+        "objective": 6.559362466244309,
+        "relative_objective_difference": 1.9096161939372553e-10,
+        "relative_vector_difference": 4.153071424628509e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.010846385,
+        "ms": 25.662095002189744,
+        "primal": 2.0714537358204343e-10,
+        "stationarity": 4.41512485706189e-06,
+        "complementarity": 6.53016856544447e-10,
+        "residual": 4.41512485706189e-06,
+        "objective": 6.559362509837579,
+        "relative_objective_difference": 6.4549998658717725e-09,
+        "relative_vector_difference": 4.668641417425585e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.009154766,
+        "ms": 24.81476300090435,
+        "primal": 0.0,
+        "stationarity": 1.7549885314231363e-06,
+        "complementarity": 1.0871817014737425e-11,
+        "residual": 1.7549885314231363e-06,
+        "objective": 6.559362468253549,
+        "relative_objective_difference": 1.1535471783220372e-10,
+        "relative_vector_difference": 3.3591129160647197e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005210713999986183,
+        "ms": 21.816068001498934,
+        "primal": 4.386995757716614e-11,
+        "stationarity": 9.229976012511877e-07,
+        "complementarity": 7.623643341790178e-11,
+        "residual": 9.229976012511877e-07,
+        "objective": 6.559362469130476,
+        "relative_objective_difference": 2.4904560316210166e-10,
+        "relative_vector_difference": 1.5945456767654313e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_4",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "29204ec6b58e80d1127c3d573b0d5c179eadcbd9bfbfd8e42b221b6235fb7c58",
+    "reference": {
+      "objective": 3.548781828811899,
+      "primal": 6.545910349222603e-16,
+      "cross_solver_objective_difference": 2.1388671214252866e-12,
+      "numerical_dual_lower_bound": 3.548781828811904,
+      "numerical_relative_gap": -1.3765234224010152e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 4.601510609021801e-16,
+        "stationarity": 4.553396810707318e-15,
+        "complementarity": 6.112238518447236e-16,
+        "residual": 4.553396810707318e-15,
+        "objective": 3.5487818288118915,
+        "iterations": 7,
+        "active": 14,
+        "ms": 1.7303169988736045,
+        "relative_objective_difference": 2.1273543800742962e-15,
+        "relative_vector_difference": 7.916625501303993e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0005428610000000001,
+        "ms": 16.307776000758167,
+        "primal": 6.4734716650274035e-12,
+        "stationarity": 2.5370265690897375e-11,
+        "complementarity": 9.840337280678771e-12,
+        "residual": 2.5370265690897375e-11,
+        "objective": 3.5487818288369284,
+        "relative_objective_difference": 7.052930600903965e-12,
+        "relative_vector_difference": 3.248362712664301e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007852728,
+        "ms": 22.562687001482118,
+        "primal": 3.5067830844030276e-10,
+        "stationarity": 1.0699053353719902e-05,
+        "complementarity": 5.713198106927357e-10,
+        "residual": 1.0699053353719902e-05,
+        "objective": 3.548781837400353,
+        "relative_objective_difference": 2.420113256412051e-09,
+        "relative_vector_difference": 1.4266213159291288e-05,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.009916546,
+        "ms": 25.409193000086816,
+        "primal": 0.0,
+        "stationarity": 2.3154839846953783e-07,
+        "complementarity": 2.647006798469195e-13,
+        "residual": 2.3154839846953783e-07,
+        "objective": 3.5487818288194894,
+        "relative_objective_difference": 2.1388671214252866e-12,
+        "relative_vector_difference": 4.5807258330375493e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004010619999462506,
+        "ms": 19.809663001069566,
+        "primal": 7.520354696204e-11,
+        "stationarity": 3.750063985081327e-07,
+        "complementarity": 1.1840639171259208e-10,
+        "residual": 3.750063985081327e-07,
+        "objective": 3.548781831596022,
+        "relative_objective_difference": 7.845291270231084e-10,
+        "relative_vector_difference": 4.086508110273109e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_5",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "8b4562c21a1ad102737e83e34849e725d90e29f2936c394aa43c94be25d80b2a",
+    "reference": {
+      "objective": 5.778989307915626,
+      "primal": 3.296929036102444e-14,
+      "cross_solver_objective_difference": 6.832416672785698e-08,
+      "numerical_dual_lower_bound": 5.7789893079157135,
+      "numerical_relative_gap": -1.5215405127999278e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 2.196445960465779e-16,
+        "stationarity": 1.220258519919904e-15,
+        "complementarity": 3.9143309158689293e-16,
+        "residual": 1.220258519919904e-15,
+        "objective": 5.778989307915711,
+        "iterations": 2,
+        "active": 19,
+        "ms": 1.6069209996203426,
+        "relative_objective_difference": 1.475433224533263e-14,
+        "relative_vector_difference": 6.323741785569773e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.000564043,
+        "ms": 17.11987499948009,
+        "primal": 1.0305501711256536e-10,
+        "stationarity": 2.2831646167814966e-10,
+        "complementarity": 1.1576154407030423e-10,
+        "residual": 2.2831646167814966e-10,
+        "objective": 5.778989308068109,
+        "relative_objective_difference": 2.638581785636408e-11,
+        "relative_vector_difference": 3.97188817119574e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009014726,
+        "ms": 23.521538001659792,
+        "primal": 0.0,
+        "stationarity": 1.1667967489585185e-05,
+        "complementarity": 8.457412633565585e-10,
+        "residual": 1.1667967489585185e-05,
+        "objective": 5.778989385684239,
+        "relative_objective_difference": 1.3457130585868181e-08,
+        "relative_vector_difference": 2.3315274594198825e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.010471027,
+        "ms": 25.060744999791496,
+        "primal": 0.0,
+        "stationarity": 1.2551095992978778e-07,
+        "complementarity": 1.8174171194596685e-13,
+        "residual": 1.2551095992978778e-07,
+        "objective": 5.778989307922288,
+        "relative_objective_difference": 1.1528358976275006e-12,
+        "relative_vector_difference": 2.0641168171568176e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004949294998368714,
+        "ms": 21.909809001954272,
+        "primal": 4.055779401545402e-12,
+        "stationarity": 1.1729761036123669e-07,
+        "complementarity": 2.3563782787057745e-11,
+        "residual": 1.1729761036123669e-07,
+        "objective": 5.778989308788808,
+        "relative_objective_difference": 1.510960427052337e-10,
+        "relative_vector_difference": 1.3094262382957093e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_6",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "b04ccfa9ff008befc3ca21b0bfc98dfcbe6e320847485fa3c6721c3f6d7fece4",
+    "reference": {
+      "objective": 5.064694765791154,
+      "primal": 6.189286082409407e-15,
+      "cross_solver_objective_difference": 3.258311863034948e-13,
+      "numerical_dual_lower_bound": 5.064694765791257,
+      "numerical_relative_gap": -2.0342528316041658e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 1.9224294332335654e-15,
+        "stationarity": 2.1734083275382932e-14,
+        "complementarity": 4.15024437639924e-15,
+        "residual": 2.1734083275382932e-14,
+        "objective": 5.064694765791175,
+        "iterations": 5,
+        "active": 16,
+        "ms": 1.6375670020352118,
+        "relative_objective_difference": 4.033432338525501e-15,
+        "relative_vector_difference": 4.0621780284252815e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.000538194,
+        "ms": 16.749624999647494,
+        "primal": 2.5187330665432475e-10,
+        "stationarity": 3.2374054467443656e-10,
+        "complementarity": 3.6745275531311255e-10,
+        "residual": 3.6745275531311255e-10,
+        "objective": 5.064694765428837,
+        "relative_objective_difference": 7.153783278920535e-11,
+        "relative_vector_difference": 5.92717099981003e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008373776,
+        "ms": 23.676552998949774,
+        "primal": 1.8037235713991515e-10,
+        "stationarity": 1.0380610118608273e-05,
+        "complementarity": 5.419467364619647e-10,
+        "residual": 1.0380610118608273e-05,
+        "objective": 5.064694801059382,
+        "relative_objective_difference": 6.963544513641123e-09,
+        "relative_vector_difference": 9.215109210660342e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.011132962,
+        "ms": 26.376516001619166,
+        "primal": 0.0,
+        "stationarity": 4.434254741803392e-07,
+        "complementarity": 9.580147033513466e-13,
+        "residual": 4.434254741803392e-07,
+        "objective": 5.064694765817984,
+        "relative_objective_difference": 5.29747496009471e-12,
+        "relative_vector_difference": 7.825085748315362e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004635758999938844,
+        "ms": 21.251614998618606,
+        "primal": 1.2940396583630007e-11,
+        "stationarity": 1.4073741388521457e-06,
+        "complementarity": 2.9506263771558046e-11,
+        "residual": 1.4073741388521457e-06,
+        "objective": 5.064694765844451,
+        "relative_objective_difference": 1.0523224971213032e-11,
+        "relative_vector_difference": 1.604328955231759e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_7",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "47bd82c3c41a4147fa369fdab7480db9a4bc4494710d51ed935a8a59ee51ab50",
+    "reference": {
+      "objective": 6.658336444326443,
+      "primal": 0.0,
+      "cross_solver_objective_difference": 7.188572616877077e-13,
+      "numerical_dual_lower_bound": 6.658336444326316,
+      "numerical_relative_gap": 1.894186883645472e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 0.0,
+        "stationarity": 1.136013521877769e-11,
+        "complementarity": 1.1992330195859504e-11,
+        "residual": 1.1992330195859504e-11,
+        "objective": 6.658336444803447,
+        "iterations": 8,
+        "active": 17,
+        "ms": 2.915140001277905,
+        "relative_objective_difference": 7.164014884110941e-11,
+        "relative_vector_difference": 4.4455772329766294e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0006184960000000001,
+        "ms": 81.58481200007373,
+        "primal": 1.7741473003442427e-11,
+        "stationarity": 3.516969613079167e-11,
+        "complementarity": 3.412335001130177e-11,
+        "residual": 3.516969613079167e-11,
+        "objective": 6.658336444271695,
+        "relative_objective_difference": 8.222371796331473e-12,
+        "relative_vector_difference": 5.611607183999313e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008993632,
+        "ms": 25.927155998942908,
+        "primal": 0.0,
+        "stationarity": 1.2786763676126233e-05,
+        "complementarity": 6.614700733768225e-10,
+        "residual": 1.2786763676126233e-05,
+        "objective": 6.658336517101258,
+        "relative_objective_difference": 1.0929879575125823e-08,
+        "relative_vector_difference": 1.2408327617088164e-05,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.009138309,
+        "ms": 25.048096998943947,
+        "primal": 0.0,
+        "stationarity": 2.881169719179961e-07,
+        "complementarity": 3.9246619892437116e-12,
+        "residual": 2.881169719179961e-07,
+        "objective": 6.658336444601531,
+        "relative_objective_difference": 4.1314883801157955e-11,
+        "relative_vector_difference": 4.1426766562591014e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004907782997179311,
+        "ms": 21.465797999553615,
+        "primal": 1.6581241140422357e-11,
+        "stationarity": 1.891913449139889e-07,
+        "complementarity": 2.4823044265153822e-11,
+        "residual": 1.891913449139889e-07,
+        "objective": 6.658336444657768,
+        "relative_objective_difference": 4.9760956400579105e-11,
+        "relative_vector_difference": 3.0833039286244143e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_8",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "3c9a8a4fe1725f909fb01bc859991e7e66300157ba8dc3eb889d04c5b8dec2ee",
+    "reference": {
+      "objective": 3.1238396881396886,
+      "primal": 1.137169111776659e-15,
+      "cross_solver_objective_difference": 5.6029192665510254e-11,
+      "numerical_dual_lower_bound": 3.1238396881396837,
+      "numerical_relative_gap": 1.5637746478788727e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 1.4983468156116005e-16,
+        "stationarity": 1.2772619567894357e-15,
+        "complementarity": 2.090820737421128e-16,
+        "residual": 1.2772619567894357e-15,
+        "objective": 3.1238396881396833,
+        "iterations": 9,
+        "active": 12,
+        "ms": 1.8487070010451134,
+        "relative_objective_difference": 1.7059359795042246e-15,
+        "relative_vector_difference": 9.902155431520917e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001032905,
+        "ms": 19.57229800245841,
+        "primal": 1.137169111776659e-15,
+        "stationarity": 6.869065846662975e-15,
+        "complementarity": 1.4727989734603362e-15,
+        "residual": 6.869065846662975e-15,
+        "objective": 3.1238396881396886,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007996857,
+        "ms": 24.540324000554392,
+        "primal": 3.325369815953931e-10,
+        "stationarity": 8.322688142005756e-06,
+        "complementarity": 4.4167641874612395e-10,
+        "residual": 8.322688142005756e-06,
+        "objective": 3.123839693383175,
+        "relative_objective_difference": 1.6785389319960502e-09,
+        "relative_vector_difference": 1.0103587221611434e-05,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008235606,
+        "ms": 25.420807000045897,
+        "primal": 0.0,
+        "stationarity": 4.1827099275459375e-07,
+        "complementarity": 6.282441096085536e-12,
+        "residual": 4.1827099275459375e-07,
+        "objective": 3.123839688314715,
+        "relative_objective_difference": 5.6029192665510254e-11,
+        "relative_vector_difference": 8.633020879686687e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0040908999981184024,
+        "ms": 19.911019000574015,
+        "primal": 1.5960713665929997e-10,
+        "stationarity": 1.9422409275167343e-06,
+        "complementarity": 6.059350912271577e-10,
+        "residual": 1.9422409275167343e-06,
+        "objective": 3.1238396860772917,
+        "relative_objective_difference": 6.602121510079556e-10,
+        "relative_vector_difference": 7.757845486381362e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10_9",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "976929e28a5e7cfc7d2becc0da09a7ae5ffe136ca5a1fc5fbf555cbc2a310475",
+    "reference": {
+      "objective": 7.4871806004829535,
+      "primal": 2.169315632425878e-13,
+      "cross_solver_objective_difference": 4.11838849681202e-09,
+      "numerical_dual_lower_bound": 7.487180600482695,
+      "numerical_relative_gap": 3.4520326665562835e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 8.476161478260412e-16,
+        "stationarity": 6.471613306585125e-15,
+        "complementarity": 1.3836599499428692e-15,
+        "residual": 6.471613306585125e-15,
+        "objective": 7.487180600482652,
+        "iterations": 4,
+        "active": 17,
+        "ms": 1.7875489975267556,
+        "relative_objective_difference": 4.021440116709897e-14,
+        "relative_vector_difference": 3.322529081583237e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.000554871,
+        "ms": 15.919370998744853,
+        "primal": 8.224213342754661e-10,
+        "stationarity": 1.0483909632479523e-09,
+        "complementarity": 1.3840138285385712e-09,
+        "residual": 1.3840138285385712e-09,
+        "objective": 7.487180601376259,
+        "relative_objective_difference": 1.1931138320069803e-10,
+        "relative_vector_difference": 1.5221123203746661e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009689192,
+        "ms": 24.369495000428287,
+        "primal": 3.1176174559273424e-10,
+        "stationarity": 1.7268348022750543e-05,
+        "complementarity": 3.59585421040003e-09,
+        "residual": 1.7268348022750543e-05,
+        "objective": 7.487180973545694,
+        "relative_objective_difference": 4.9826865492655174e-08,
+        "relative_vector_difference": 4.016042871261696e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.011489216,
+        "ms": 27.201854998565977,
+        "primal": 0.0,
+        "stationarity": 9.149163237728413e-08,
+        "complementarity": 3.059425870241607e-14,
+        "residual": 9.149163237728413e-08,
+        "objective": 7.4871806004842165,
+        "relative_objective_difference": 1.6868695710800808e-13,
+        "relative_vector_difference": 1.551658662160206e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005008412997995038,
+        "ms": 20.58882599885692,
+        "primal": 8.26900889323537e-12,
+        "stationarity": 1.833395287843849e-07,
+        "complementarity": 2.75626234799178e-11,
+        "residual": 1.833395287843849e-07,
+        "objective": 7.487180601311967,
+        "relative_objective_difference": 1.1072436297272519e-10,
+        "relative_vector_difference": 3.1106683145592563e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_0",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "52de48c16e35a1a5c27a73dd78dcba02e5571acc0760a5a63c7cca909b6cba80",
+    "reference": {
+      "objective": 2.5210590755629956,
+      "primal": 1.5007281024976697e-14,
+      "cross_solver_objective_difference": 1.08210078952621e-12,
+      "numerical_dual_lower_bound": 2.52105907556299,
+      "numerical_relative_gap": 2.2899739970439087e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 2.3946394102104794e-16,
+        "stationarity": 1.5692743738011921e-15,
+        "complementarity": 1.342340657549615e-16,
+        "residual": 1.5692743738011921e-15,
+        "objective": 2.52105907556299,
+        "iterations": 9,
+        "active": 18,
+        "ms": 3.6385520033945795,
+        "relative_objective_difference": 2.2899739970439087e-15,
+        "relative_vector_difference": 1.7337172503665174e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001099977,
+        "ms": 16.88041799934581,
+        "primal": 1.5007281024976697e-14,
+        "stationarity": 8.178124591331616e-15,
+        "complementarity": 4.596352612317489e-15,
+        "residual": 1.5007281024976697e-14,
+        "objective": 2.5210590755629956,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009701069,
+        "ms": 24.98643900253228,
+        "primal": 9.247643002372428e-11,
+        "stationarity": 3.7415465727564085e-06,
+        "complementarity": 3.048459573165455e-10,
+        "residual": 3.7415465727564085e-06,
+        "objective": 2.5210590884708446,
+        "relative_objective_difference": 5.120010529298966e-09,
+        "relative_vector_difference": 8.685230571783496e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.013272758,
+        "ms": 31.980495998141123,
+        "primal": 0.0,
+        "stationarity": 1.1277320680643399e-07,
+        "complementarity": 1.0074267163517906e-13,
+        "residual": 1.1277320680643399e-07,
+        "objective": 2.5210590755657236,
+        "relative_objective_difference": 1.08210078952621e-12,
+        "relative_vector_difference": 3.1138432679388623e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005073409996839473,
+        "ms": 21.38086600098177,
+        "primal": 6.183763130913461e-12,
+        "stationarity": 1.456707681688768e-07,
+        "complementarity": 4.170694612221869e-11,
+        "residual": 1.456707681688768e-07,
+        "objective": 2.521059075734794,
+        "relative_objective_difference": 6.814539850772448e-11,
+        "relative_vector_difference": 5.041642564004317e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_1",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "f02fed5bf8c249178e8e09a4b6205e959cef8f65e49726998729dfb387b9abeb",
+    "reference": {
+      "objective": 1.4821681153681252,
+      "primal": 5.968949709144543e-14,
+      "cross_solver_objective_difference": 7.364818594057733e-10,
+      "numerical_dual_lower_bound": 1.4821681153680386,
+      "numerical_relative_gap": 5.84261630127255e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 2.1494583590046377e-15,
+        "stationarity": 9.987752155481024e-15,
+        "complementarity": 3.5770012115469256e-15,
+        "residual": 9.987752155481024e-15,
+        "objective": 1.4821681153680084,
+        "iterations": 8,
+        "active": 15,
+        "ms": 2.3415280011249706,
+        "relative_objective_difference": 7.880041472998361e-14,
+        "relative_vector_difference": 1.586884650339215e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001535056,
+        "ms": 18.97504099906655,
+        "primal": 5.968949709144543e-14,
+        "stationarity": 4.100023047422858e-14,
+        "complementarity": 4.463855242983817e-14,
+        "residual": 5.968949709144543e-14,
+        "objective": 1.4821681153681252,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008505498,
+        "ms": 23.78933499858249,
+        "primal": 2.1469375069909595e-10,
+        "stationarity": 2.74478444683788e-06,
+        "complementarity": 3.5728011960249727e-10,
+        "residual": 2.74478444683788e-06,
+        "objective": 1.4821681179856188,
+        "relative_objective_difference": 1.765989652654664e-09,
+        "relative_vector_difference": 7.351659498264572e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010096577,
+        "ms": 25.73731700249482,
+        "primal": 0.0,
+        "stationarity": 1.2353940980343936e-06,
+        "complementarity": 4.3202317838241694e-11,
+        "residual": 1.2353940980343936e-06,
+        "objective": 1.4821681164597151,
+        "relative_objective_difference": 7.364818594057733e-10,
+        "relative_vector_difference": 5.080141059638955e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004852130001381738,
+        "ms": 22.010379998391727,
+        "primal": 0.0,
+        "stationarity": 8.371799734399366e-07,
+        "complementarity": 4.485931262844903e-11,
+        "residual": 8.371799734399366e-07,
+        "objective": 1.4821681164678988,
+        "relative_objective_difference": 7.420032816211503e-10,
+        "relative_vector_difference": 2.2261388399360715e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_2",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "30f5a38cdb49d561c3cec8b00f848d4521592265efc61039c330bff339d27d28",
+    "reference": {
+      "objective": 1.6292724740265008,
+      "primal": 1.6352187979377464e-15,
+      "cross_solver_objective_difference": 1.5285670927002005e-12,
+      "numerical_dual_lower_bound": 1.6292724740265043,
+      "numerical_relative_gap": -2.1805522007135526e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 3.2606988607555274e-16,
+        "stationarity": 1.475342917144653e-15,
+        "complementarity": 1.1857418736529631e-16,
+        "residual": 1.475342917144653e-15,
+        "objective": 1.6292724740265012,
+        "iterations": 11,
+        "active": 12,
+        "ms": 2.518586999940453,
+        "relative_objective_difference": 2.7256902508919407e-16,
+        "relative_vector_difference": 4.7117528380110785e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0018630930000000001,
+        "ms": 19.78344600138371,
+        "primal": 1.6352187979377464e-15,
+        "stationarity": 9.25024957160788e-16,
+        "complementarity": 1.953610514918241e-15,
+        "residual": 1.953610514918241e-15,
+        "objective": 1.6292724740265008,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.01025012,
+        "ms": 27.842276002047583,
+        "primal": 0.0,
+        "stationarity": 2.2800206818149174e-06,
+        "complementarity": 1.3078370355722144e-10,
+        "residual": 2.2800206818149174e-06,
+        "objective": 1.6292724768791125,
+        "relative_objective_difference": 1.7508499946352017e-09,
+        "relative_vector_difference": 6.9502342250363885e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008730037,
+        "ms": 23.38011499887216,
+        "primal": 0.0,
+        "stationarity": 2.6257821853485147e-06,
+        "complementarity": 6.413799386318583e-11,
+        "residual": 2.6257821853485147e-06,
+        "objective": 1.6292724749365968,
+        "relative_objective_difference": 5.585904218426403e-10,
+        "relative_vector_difference": 8.745380452735842e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004545103998680133,
+        "ms": 20.7961099986278,
+        "primal": 0.0,
+        "stationarity": 1.611785452120443e-07,
+        "complementarity": 1.8351313044784464e-10,
+        "residual": 1.611785452120443e-07,
+        "objective": 1.6292724748513348,
+        "relative_objective_difference": 5.062590770086906e-10,
+        "relative_vector_difference": 3.229652155948253e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_3",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "3fb3b14b6ba6ead71ab9009927ab6df6c9d0dbc6170d65219bb7ce3997de9f35",
+    "reference": {
+      "objective": 0.7268827142148621,
+      "primal": 1.6233952103465467e-12,
+      "cross_solver_objective_difference": 1.3242805891738565e-11,
+      "numerical_dual_lower_bound": 0.7268827142128625,
+      "numerical_relative_gap": 2.750803710485353e-12
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 0.0,
+        "stationarity": 2.2542433870428587e-11,
+        "complementarity": 2.27091840919313e-11,
+        "residual": 2.27091840919313e-11,
+        "objective": 0.7268827144161178,
+        "iterations": 12,
+        "active": 17,
+        "ms": 4.012469998997403,
+        "relative_objective_difference": 2.7687519028240055e-10,
+        "relative_vector_difference": 1.9136028680988948e-10,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001538792,
+        "ms": 17.332671999611193,
+        "primal": 1.6233952103465467e-12,
+        "stationarity": 3.2109747095630044e-13,
+        "complementarity": 2.7756084906399684e-12,
+        "residual": 2.7756084906399684e-12,
+        "objective": 0.7268827142148621,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007600466,
+        "ms": 23.006068000540836,
+        "primal": 4.265110108438178e-12,
+        "stationarity": 9.23499493103669e-07,
+        "complementarity": 1.5521072317256807e-11,
+        "residual": 9.23499493103669e-07,
+        "objective": 0.7268827145092404,
+        "relative_objective_difference": 4.0498734356696085e-10,
+        "relative_vector_difference": 3.3117025777784376e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010107905,
+        "ms": 25.382980002177646,
+        "primal": 0.0,
+        "stationarity": 1.1477383800485967e-06,
+        "complementarity": 3.931673679764169e-10,
+        "residual": 1.1477383800485967e-06,
+        "objective": 0.7268827243794217,
+        "relative_objective_difference": 1.3983768549792895e-08,
+        "relative_vector_difference": 2.59427380962774e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004478154998651007,
+        "ms": 19.807972999842605,
+        "primal": 0.0,
+        "stationarity": 1.7131189018540663e-06,
+        "complementarity": 1.4403132544888127e-10,
+        "residual": 1.7131189018540663e-06,
+        "objective": 0.7268827172880168,
+        "relative_objective_difference": 4.227855017865235e-09,
+        "relative_vector_difference": 4.964652751831008e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_4",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "b2d405972a95955d97dcdb4a798101ee6ec3f891a74ee1b53bfa25c0d41427d2",
+    "reference": {
+      "objective": 2.096535496737033,
+      "primal": 1.9456557616425104e-14,
+      "cross_solver_objective_difference": 6.570672097366741e-13,
+      "numerical_dual_lower_bound": 2.0965354967373653,
+      "numerical_relative_gap": -1.5844173851806324e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 1.73179767769098e-16,
+        "stationarity": 1.7007044876764745e-15,
+        "complementarity": 1.284662378413275e-16,
+        "residual": 1.7007044876764745e-15,
+        "objective": 2.0965354967373644,
+        "iterations": 5,
+        "active": 16,
+        "ms": 1.7427110033167992,
+        "relative_objective_difference": 1.5801809750598286e-13,
+        "relative_vector_difference": 1.8437394294048458e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0013926700000000001,
+        "ms": 17.63781399858999,
+        "primal": 1.9456557616425104e-14,
+        "stationarity": 7.998028482599971e-14,
+        "complementarity": 2.9507613182344585e-14,
+        "residual": 7.998028482599971e-14,
+        "objective": 2.096535496737033,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007864836,
+        "ms": 22.753905999707058,
+        "primal": 4.831372406374681e-12,
+        "stationarity": 4.1501032673026935e-06,
+        "complementarity": 3.5674484853810736e-10,
+        "residual": 4.1501032673026935e-06,
+        "objective": 2.096535510773988,
+        "relative_objective_difference": 6.695309824966862e-09,
+        "relative_vector_difference": 8.395463642910902e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008791311,
+        "ms": 23.929208000481594,
+        "primal": 0.0,
+        "stationarity": 1.3435340220314439e-06,
+        "complementarity": 2.0191195765086983e-11,
+        "residual": 1.3435340220314439e-06,
+        "objective": 2.0965354970793904,
+        "relative_objective_difference": 1.6329666451650443e-10,
+        "relative_vector_difference": 4.093109044122534e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004340770999988308,
+        "ms": 20.788007997907698,
+        "primal": 0.0,
+        "stationarity": 4.606912818303707e-06,
+        "complementarity": 1.8484193371489188e-10,
+        "residual": 4.606912818303707e-06,
+        "objective": 2.096535501465245,
+        "relative_objective_difference": 2.2552501741433404e-09,
+        "relative_vector_difference": 9.301620512691349e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_5",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "ac0a97fe3f82e2bd48647069e549c33c12ffd4db00d0e5d83806fff58b015151",
+    "reference": {
+      "objective": 0.9798923489633254,
+      "primal": 1.4387548151016246e-14,
+      "cross_solver_objective_difference": 3.355961093500478e-13,
+      "numerical_dual_lower_bound": 0.9798923489633217,
+      "numerical_relative_gap": 3.852217325422561e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 2.4762519832263526e-16,
+        "stationarity": 1.772060504198801e-15,
+        "complementarity": 4.110753917565106e-17,
+        "residual": 1.772060504198801e-15,
+        "objective": 0.9798923489633214,
+        "iterations": 10,
+        "active": 15,
+        "ms": 3.0104310026217718,
+        "relative_objective_difference": 4.0788183445650645e-15,
+        "relative_vector_difference": 3.2929675690163255e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001548957,
+        "ms": 17.982547000428895,
+        "primal": 8.767244960012601e-12,
+        "stationarity": 1.57006456351748e-12,
+        "complementarity": 1.690596168667481e-11,
+        "residual": 1.690596168667481e-11,
+        "objective": 0.9798923489687547,
+        "relative_objective_difference": 5.540621519053355e-12,
+        "relative_vector_difference": 2.739284026823443e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007586174,
+        "ms": 22.853747999761254,
+        "primal": 0.0,
+        "stationarity": 8.485391208681515e-07,
+        "complementarity": 8.52307506883136e-11,
+        "residual": 8.485391208681515e-07,
+        "objective": 0.9798923504584224,
+        "relative_objective_difference": 1.525776721010564e-09,
+        "relative_vector_difference": 3.2376115142120955e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.011775693,
+        "ms": 26.855192001676187,
+        "primal": 0.0,
+        "stationarity": 2.0016325711430947e-07,
+        "complementarity": 4.95172136177502e-13,
+        "residual": 2.0016325711430947e-07,
+        "objective": 0.9798923489695024,
+        "relative_objective_difference": 6.3037004510157355e-12,
+        "relative_vector_difference": 8.124220580853606e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004350745999545325,
+        "ms": 20.267239000531845,
+        "primal": 0.0,
+        "stationarity": 6.482659155956485e-08,
+        "complementarity": 1.5089866264014684e-11,
+        "residual": 6.482659155956485e-08,
+        "objective": 0.979892349160239,
+        "relative_objective_difference": 2.0095431579595501e-10,
+        "relative_vector_difference": 1.882916351863907e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_6",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "76b97723c5d1bb8cec78eda58f287eaa1a7f321f99903c8e2ce5f371b036b63b",
+    "reference": {
+      "objective": 1.1643866197835688,
+      "primal": 2.4715819599725277e-13,
+      "cross_solver_objective_difference": 4.353947326936529e-11,
+      "numerical_dual_lower_bound": 1.1643866197855197,
+      "numerical_relative_gap": -1.675460595067596e-12
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 5.256504279105101e-16,
+        "stationarity": 1.3989925300425762e-15,
+        "complementarity": 2.512554419161171e-16,
+        "residual": 1.3989925300425762e-15,
+        "objective": 1.1643866197855202,
+        "iterations": 4,
+        "active": 19,
+        "ms": 2.282297999045113,
+        "relative_objective_difference": 1.6758419883284812e-12,
+        "relative_vector_difference": 1.3039902964763774e-12,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.000972684,
+        "ms": 16.766454002208775,
+        "primal": 2.4715819599725277e-13,
+        "stationarity": 4.093747816149638e-13,
+        "complementarity": 2.744337564331161e-13,
+        "residual": 4.093747816149638e-13,
+        "objective": 1.1643866197835688,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008278775,
+        "ms": 23.343991000729147,
+        "primal": 1.7696129053950367e-11,
+        "stationarity": 3.763732195161028e-06,
+        "complementarity": 9.759870128969405e-11,
+        "residual": 3.763732195161028e-06,
+        "objective": 1.1643866228718838,
+        "relative_objective_difference": 2.6523105681946156e-09,
+        "relative_vector_difference": 8.675026321017772e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010889219,
+        "ms": 25.706700998853194,
+        "primal": 0.0,
+        "stationarity": 1.1719332135150796e-07,
+        "complementarity": 1.3626321970746106e-12,
+        "residual": 1.1719332135150796e-07,
+        "objective": 1.1643866198342656,
+        "relative_objective_difference": 4.353947326936529e-11,
+        "relative_vector_difference": 3.4751450581236304e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004775437002535909,
+        "ms": 20.48841400028323,
+        "primal": 4.906909092990402e-12,
+        "stationarity": 6.346387852330462e-07,
+        "complementarity": 4.43360114750616e-11,
+        "residual": 6.346387852330462e-07,
+        "objective": 1.164386619913533,
+        "relative_objective_difference": 1.1161607267439444e-10,
+        "relative_vector_difference": 4.9599657110061086e-08,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_7",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "0e5ee5b5a2aaf9480a9fe29cae2108b281ca8b71e6bd98365289cc35882aeb75",
+    "reference": {
+      "objective": 1.0192022031432706,
+      "primal": 4.21426173186494e-16,
+      "cross_solver_objective_difference": 4.228903560949137e-11,
+      "numerical_dual_lower_bound": 1.0192022031432708,
+      "numerical_relative_gap": -2.178611900957775e-16
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 1.1286633113731805e-14,
+        "stationarity": 4.2891617934784553e-14,
+        "complementarity": 1.0216446788159984e-14,
+        "residual": 4.2891617934784553e-14,
+        "objective": 1.0192022031431738,
+        "iterations": 5,
+        "active": 16,
+        "ms": 1.6720129970053677,
+        "relative_objective_difference": 9.498747888175899e-14,
+        "relative_vector_difference": 2.2151718396749244e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.00100341,
+        "ms": 17.181111998070264,
+        "primal": 0.0,
+        "stationarity": 1.3948159838082982e-09,
+        "complementarity": 3.0322408344825794e-10,
+        "residual": 1.3948159838082982e-09,
+        "objective": 1.0192022064214292,
+        "relative_objective_difference": 3.2163967300356725e-09,
+        "relative_vector_difference": 3.0959302201651733e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008326475,
+        "ms": 22.610588999668835,
+        "primal": 2.543066700741336e-11,
+        "stationarity": 2.0348005074226375e-06,
+        "complementarity": 5.2946469701389796e-11,
+        "residual": 2.0348005074226375e-06,
+        "objective": 1.0192022039663426,
+        "relative_objective_difference": 8.075650272515568e-10,
+        "relative_vector_difference": 3.03016359911703e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.009949036,
+        "ms": 26.581386002362706,
+        "primal": 0.0,
+        "stationarity": 1.85142302787214e-06,
+        "complementarity": 6.44884574070577e-11,
+        "residual": 1.85142302787214e-06,
+        "objective": 1.0192022049012284,
+        "relative_objective_difference": 1.7248371068325037e-09,
+        "relative_vector_difference": 6.764893101350047e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004155175000050804,
+        "ms": 19.48323100077687,
+        "primal": 0.0,
+        "stationarity": 7.264424429815085e-07,
+        "complementarity": 1.3320397795539641e-11,
+        "residual": 7.264424429815085e-07,
+        "objective": 1.0192022033457975,
+        "relative_objective_difference": 1.9871119148635865e-10,
+        "relative_vector_difference": 5.037990050146097e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_8",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "cbd79afb0c5bcd6777d88d94bac44e5c5d95660a8b30c400e53a9401922eeb3a",
+    "reference": {
+      "objective": 3.178315942490496,
+      "primal": 1.9237931772663826e-13,
+      "cross_solver_objective_difference": 6.226132187290554e-13,
+      "numerical_dual_lower_bound": 3.1783159424779197,
+      "numerical_relative_gap": 3.95686349667597e-12
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 7.859125134291176e-13,
+        "stationarity": 5.709118251425159e-12,
+        "complementarity": 1.3368724757118575e-12,
+        "residual": 5.709118251425159e-12,
+        "objective": 3.1783159424522336,
+        "iterations": 9,
+        "active": 14,
+        "ms": 2.35829400116927,
+        "relative_objective_difference": 1.2038539567431931e-11,
+        "relative_vector_difference": 2.7798589273226998e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001426061,
+        "ms": 18.172735002735863,
+        "primal": 1.9237931772663826e-13,
+        "stationarity": 1.2757856298049792e-11,
+        "complementarity": 1.7149208339608674e-12,
+        "residual": 1.2757856298049792e-11,
+        "objective": 3.178315942490496,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008463383,
+        "ms": 23.787872996763326,
+        "primal": 2.938825529543325e-10,
+        "stationarity": 4.635496649019486e-06,
+        "complementarity": 4.99908594928483e-10,
+        "residual": 4.635496649019486e-06,
+        "objective": 3.1783159460973844,
+        "relative_objective_difference": 1.134842674820112e-09,
+        "relative_vector_difference": 5.764999689300835e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.011092776,
+        "ms": 25.7758260013361,
+        "primal": 0.0,
+        "stationarity": 2.878170182230477e-07,
+        "complementarity": 3.899368513822087e-13,
+        "residual": 2.878170182230477e-07,
+        "objective": 3.178315942488517,
+        "relative_objective_difference": 6.226132187290554e-13,
+        "relative_vector_difference": 6.605743753268708e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004894372999842744,
+        "ms": 21.22688300005393,
+        "primal": 1.0816348660456132e-11,
+        "stationarity": 1.3782887815699202e-07,
+        "complementarity": 1.9188896774299444e-11,
+        "residual": 1.3782887815699202e-07,
+        "objective": 3.178315942194378,
+        "relative_objective_difference": 9.316814385594629e-11,
+        "relative_vector_difference": 1.603070415089195e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100_9",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "b1ff833ac2b613ffe6a38dcc494d990730bd1baf6bba89f63224ef196b1549ae",
+    "reference": {
+      "objective": 1.5948191696091096,
+      "primal": 8.279364192782871e-16,
+      "cross_solver_objective_difference": 3.8570407928503884e-09,
+      "numerical_dual_lower_bound": 1.5948191696091012,
+      "numerical_relative_gap": 5.290690724026893e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 1,
+        "primal": 7.605992020748546e-12,
+        "stationarity": 3.800262505327753e-11,
+        "complementarity": 7.668127206124233e-12,
+        "residual": 3.800262505327753e-11,
+        "objective": 1.594819169501726,
+        "iterations": 5,
+        "active": 16,
+        "ms": 1.8160009967687074,
+        "relative_objective_difference": 6.733281087154785e-11,
+        "relative_vector_difference": 2.02833093055613e-10,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001511069,
+        "ms": 17.16742200005683,
+        "primal": 8.279364192782871e-16,
+        "stationarity": 1.1078595528623016e-15,
+        "complementarity": 7.444530432052763e-16,
+        "residual": 1.1078595528623016e-15,
+        "objective": 1.5948191696091096,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007186138,
+        "ms": 22.381181999662658,
+        "primal": 0.0,
+        "stationarity": 1.5743663925773489e-06,
+        "complementarity": 1.2272824199478817e-10,
+        "residual": 1.5743663925773489e-06,
+        "objective": 1.5948191744722613,
+        "relative_objective_difference": 3.0493436195297666e-09,
+        "relative_vector_difference": 3.5550786392176097e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.010109149,
+        "ms": 24.819616999593563,
+        "primal": 0.0,
+        "stationarity": 3.3193031415854446e-07,
+        "complementarity": 8.473987212421648e-13,
+        "residual": 3.3193031415854446e-07,
+        "objective": 1.5948191696252185,
+        "relative_objective_difference": 1.0100763964386924e-11,
+        "relative_vector_difference": 1.1225013137466492e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0049676719972922,
+        "ms": 21.33224199860706,
+        "primal": 0.0,
+        "stationarity": 1.6176300037072476e-06,
+        "complementarity": 1.2166487679166452e-09,
+        "residual": 1.6176300037072476e-06,
+        "objective": 1.5948191828289,
+        "relative_objective_difference": 8.289209601573702e-09,
+        "relative_vector_difference": 7.135605010721799e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_0",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "121f10e21d92602cd33417c030043f34f3e333a11815257e0b0f97ff16a096b4",
+    "reference": {
+      "objective": 0.532265789683984,
+      "primal": 1.7645343475715354e-15,
+      "cross_solver_objective_difference": 5.907108190449708e-12,
+      "numerical_dual_lower_bound": 0.532265789683989,
+      "numerical_relative_gap": -9.386294794146781e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 1.067735023331284e-12,
+        "stationarity": 2.919902437199662e-12,
+        "complementarity": 9.42657980206039e-13,
+        "residual": 2.919902437199662e-12,
+        "objective": 0.5322657896781523,
+        "iterations": 6,
+        "active": 17,
+        "ms": 2.515881998988334,
+        "relative_objective_difference": 1.09563090367144e-11,
+        "relative_vector_difference": 3.210505135155919e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001698854,
+        "ms": 20.14131800024188,
+        "primal": 9.66829082772337e-11,
+        "stationarity": 2.742203255323686e-11,
+        "complementarity": 5.76113428615755e-11,
+        "residual": 9.66829082772337e-11,
+        "objective": 0.5322657895184889,
+        "relative_objective_difference": 3.1092560391134485e-10,
+        "relative_vector_difference": 2.0563874800212792e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007944056,
+        "ms": 23.395027998049045,
+        "primal": 3.8517841871114484e-12,
+        "stationarity": 9.932696583790169e-07,
+        "complementarity": 3.100508577589605e-11,
+        "residual": 9.932696583790169e-07,
+        "objective": 0.5322657902760414,
+        "relative_objective_difference": 1.1123341281341173e-09,
+        "relative_vector_difference": 3.0177346854972984e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.010868466,
+        "ms": 80.58942899879185,
+        "primal": 0.0,
+        "stationarity": 1.3767624771892397e-07,
+        "complementarity": 3.433780862906477e-13,
+        "residual": 1.3767624771892397e-07,
+        "objective": 0.5322657896871281,
+        "relative_objective_difference": 5.907108190449708e-12,
+        "relative_vector_difference": 8.466599445708118e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004759553001349559,
+        "ms": 21.36489199983771,
+        "primal": 1.8142091573236448e-12,
+        "stationarity": 1.5339304446530638e-07,
+        "complementarity": 5.274651531996e-12,
+        "residual": 1.5339304446530638e-07,
+        "objective": 0.5322657897324924,
+        "relative_objective_difference": 9.113570784294628e-11,
+        "relative_vector_difference": 1.2900348289547866e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_1",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "30471d23db5f97e2af871177239ffa38e0aad3a5e2b338135605e60cbd7c4d42",
+    "reference": {
+      "objective": 0.3399509017452098,
+      "primal": 1.8386821874008496e-14,
+      "cross_solver_objective_difference": 1.0237914304665723e-10,
+      "numerical_dual_lower_bound": 0.33995090174526726,
+      "numerical_relative_gap": -1.6900688078601758e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 5,
+        "primal": 3.608316855053939e-15,
+        "stationarity": 9.046596559389326e-15,
+        "complementarity": 2.6858161007966456e-15,
+        "residual": 9.046596559389326e-15,
+        "objective": 0.33995090174525505,
+        "iterations": 10,
+        "active": 17,
+        "ms": 3.7151290016481653,
+        "relative_objective_difference": 1.3308271288947277e-13,
+        "relative_vector_difference": 7.335222092486371e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001528075,
+        "ms": 17.859301002317807,
+        "primal": 1.4650792377932567e-10,
+        "stationarity": 9.004238963053977e-11,
+        "complementarity": 2.1334302750168699e-10,
+        "residual": 2.1334302750168699e-10,
+        "objective": 0.33995090259857574,
+        "relative_objective_difference": 2.510262302856492e-09,
+        "relative_vector_difference": 1.1768493182513363e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007360822,
+        "ms": 21.740800999396015,
+        "primal": 8.285417147666871e-12,
+        "stationarity": 5.444020366258841e-07,
+        "complementarity": 7.198320168381621e-12,
+        "residual": 5.444020366258841e-07,
+        "objective": 0.339950901839745,
+        "relative_objective_difference": 2.780849013953469e-10,
+        "relative_vector_difference": 1.2911343181069284e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010794654,
+        "ms": 26.48728300118819,
+        "primal": 0.0,
+        "stationarity": 2.3554625330391537e-07,
+        "complementarity": 2.0861633442290605e-12,
+        "residual": 2.3554625330391537e-07,
+        "objective": 0.3399509017800137,
+        "relative_objective_difference": 1.0237914304665723e-10,
+        "relative_vector_difference": 1.2934487008578498e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005419283002993325,
+        "ms": 22.074366999731865,
+        "primal": 0.0,
+        "stationarity": 3.096861944177605e-07,
+        "complementarity": 9.296921496968625e-12,
+        "residual": 3.096861944177605e-07,
+        "objective": 0.339950901931097,
+        "relative_objective_difference": 5.468060051367871e-10,
+        "relative_vector_difference": 2.527745248426771e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_2",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "25995deb1821a27770b9379d1b30f657a761e79b726c13ab6c20ac485a883f5a",
+    "reference": {
+      "objective": 0.19981630606625486,
+      "primal": 2.4937397636259966e-16,
+      "cross_solver_objective_difference": 3.1896860441927826e-12,
+      "numerical_dual_lower_bound": 0.199816306066255,
+      "numerical_relative_gap": -6.945272926431177e-16
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 4.1922447154615004e-16,
+        "stationarity": 3.064510120227717e-15,
+        "complementarity": 5.944178740663376e-17,
+        "residual": 3.064510120227717e-15,
+        "objective": 0.19981630606625492,
+        "iterations": 9,
+        "active": 14,
+        "ms": 2.5225019999197684,
+        "relative_objective_difference": 2.778109170572471e-16,
+        "relative_vector_difference": 1.3249184378887684e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001851815,
+        "ms": 23.433867001585895,
+        "primal": 0.0,
+        "stationarity": 4.196092572797732e-11,
+        "complementarity": 8.736409603145859e-11,
+        "residual": 8.736409603145859e-11,
+        "objective": 0.19981630652096571,
+        "relative_objective_difference": 2.275644371855003e-09,
+        "relative_vector_difference": 9.214186569650578e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.00736537,
+        "ms": 22.628967999480665,
+        "primal": 0.0,
+        "stationarity": 5.906380838225878e-07,
+        "complementarity": 1.4229504968718407e-11,
+        "residual": 5.906380838225878e-07,
+        "objective": 0.1998163062022063,
+        "relative_objective_difference": 6.803821330847724e-10,
+        "relative_vector_difference": 2.5071565875914806e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.009797854,
+        "ms": 26.184004000242567,
+        "primal": 0.0,
+        "stationarity": 1.7540087149118152e-07,
+        "complementarity": 3.489271671344514e-12,
+        "residual": 1.7540087149118152e-07,
+        "objective": 0.19981630609173864,
+        "relative_objective_difference": 1.275360467480557e-10,
+        "relative_vector_difference": 1.6131523050818693e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005177924998861272,
+        "ms": 20.93708300162689,
+        "primal": 0.0,
+        "stationarity": 1.6305502926507197e-06,
+        "complementarity": 9.081029654382742e-11,
+        "residual": 1.6305502926507197e-06,
+        "objective": 0.19981630624947844,
+        "relative_objective_difference": 9.169600760214658e-10,
+        "relative_vector_difference": 3.1160099766048553e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_3",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "c9dd2314aa42f1d8a6cf35ed9bf63445b7900da320cd30b4ab524b7176e9e29f",
+    "reference": {
+      "objective": 0.23408122503707637,
+      "primal": 1.1460352769324722e-15,
+      "cross_solver_objective_difference": 1.6854245569852871e-09,
+      "numerical_dual_lower_bound": 0.23408122503707632,
+      "numerical_relative_gap": 2.3714482535908363e-16
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 1.4603671946580697e-14,
+        "stationarity": 2.3780007216387203e-14,
+        "complementarity": 9.132417933153618e-15,
+        "residual": 2.3780007216387203e-14,
+        "objective": 0.23408122503704418,
+        "iterations": 8,
+        "active": 15,
+        "ms": 2.3644129978492856,
+        "relative_objective_difference": 1.375439987082685e-13,
+        "relative_vector_difference": 3.369944764563609e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001860789,
+        "ms": 17.443118998926366,
+        "primal": 9.597056653381749e-12,
+        "stationarity": 1.3560824523937214e-12,
+        "complementarity": 1.807337746676373e-11,
+        "residual": 1.807337746676373e-11,
+        "objective": 0.23408122505360054,
+        "relative_objective_difference": 7.05916115991145e-11,
+        "relative_vector_difference": 1.3215490122573346e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007229294,
+        "ms": 22.500783001305535,
+        "primal": 0.0,
+        "stationarity": 2.1674201081489684e-07,
+        "complementarity": 2.6420172484699418e-12,
+        "residual": 2.1674201081489684e-07,
+        "objective": 0.23408122506563825,
+        "relative_objective_difference": 1.220169412678825e-10,
+        "relative_vector_difference": 6.902706037026478e-07,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010230672,
+        "ms": 24.692134000360966,
+        "primal": 0.0,
+        "stationarity": 7.078406438819026e-07,
+        "complementarity": 4.082498852112286e-11,
+        "residual": 7.078406438819026e-07,
+        "objective": 0.23408122543160262,
+        "relative_objective_difference": 1.6854245569852871e-09,
+        "relative_vector_difference": 6.24148352958386e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005400245001510484,
+        "ms": 21.987644999171607,
+        "primal": 0.0,
+        "stationarity": 3.7590679177649426e-07,
+        "complementarity": 7.32508635275678e-10,
+        "residual": 3.7590679177649426e-07,
+        "objective": 0.23408123111236795,
+        "relative_objective_difference": 2.5953775551229977e-08,
+        "relative_vector_difference": 2.8938479587538913e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_4",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "3926fccdc49dbed42dbb3c5cce5779d78b243c474b79815ff407cf92e3f419f9",
+    "reference": {
+      "objective": 0.8918775613590785,
+      "primal": 9.218594391384707e-16,
+      "cross_solver_objective_difference": 3.4020807987105965e-13,
+      "numerical_dual_lower_bound": 0.8918775613590819,
+      "numerical_relative_gap": -3.85892809220741e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 1.5894128261008087e-16,
+        "stationarity": 2.0265028444731237e-15,
+        "complementarity": 3.0316187259597113e-16,
+        "residual": 2.0265028444731237e-15,
+        "objective": 0.8918775613590832,
+        "iterations": 5,
+        "active": 16,
+        "ms": 1.9527490003383718,
+        "relative_objective_difference": 5.352706708545761e-15,
+        "relative_vector_difference": 5.459171104485665e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0016209759999999999,
+        "ms": 17.788753000786528,
+        "primal": 1.9823339212535093e-11,
+        "stationarity": 6.546133597115921e-12,
+        "complementarity": 8.873024367664009e-12,
+        "residual": 1.9823339212535093e-11,
+        "objective": 0.8918775613042065,
+        "relative_objective_difference": 6.152413538957634e-11,
+        "relative_vector_difference": 5.005853095943383e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008522824,
+        "ms": 23.32350899814628,
+        "primal": 1.104726860808986e-11,
+        "stationarity": 7.640267557723782e-07,
+        "complementarity": 2.3227025501306527e-11,
+        "residual": 7.640267557723782e-07,
+        "objective": 0.8918775617364846,
+        "relative_objective_difference": 4.231591002149447e-10,
+        "relative_vector_difference": 2.683234594205501e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.011909215,
+        "ms": 33.4102390006592,
+        "primal": 0.0,
+        "stationarity": 8.643067969002986e-07,
+        "complementarity": 1.3472153794416462e-11,
+        "residual": 8.643067969002986e-07,
+        "objective": 0.891877561561319,
+        "relative_objective_difference": 2.2675820807274043e-10,
+        "relative_vector_difference": 3.4918012716647644e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.006249137000850169,
+        "ms": 25.55997799936449,
+        "primal": 0.0,
+        "stationarity": 1.2110941584848037e-06,
+        "complementarity": 3.3200380583066e-10,
+        "residual": 1.2110941584848037e-06,
+        "objective": 0.891877565336153,
+        "relative_objective_difference": 4.4592158507827665e-09,
+        "relative_vector_difference": 2.567332234522894e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_5",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "2ee6b7a39116de32f1e93db1ad64015eb7ede41035580f3fc7680c0297f07f24",
+    "reference": {
+      "objective": 0.9010723850173699,
+      "primal": 6.669811529120175e-16,
+      "cross_solver_objective_difference": 4.643981855569245e-11,
+      "numerical_dual_lower_bound": 0.9010723850173727,
+      "numerical_relative_gap": -3.203493872437077e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 1.687192743007664e-16,
+        "stationarity": 2.2865183287704303e-15,
+        "complementarity": 1.382270941026928e-16,
+        "residual": 2.2865183287704303e-15,
+        "objective": 0.901072385017373,
+        "iterations": 7,
+        "active": 14,
+        "ms": 2.1842989990545902,
+        "relative_objective_difference": 3.4499164780091597e-15,
+        "relative_vector_difference": 6.279272125797001e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0015386310000000002,
+        "ms": 21.81366200238699,
+        "primal": 1.7656680025177135e-10,
+        "stationarity": 4.461857641183482e-11,
+        "complementarity": 1.2597643221783765e-10,
+        "residual": 1.7656680025177135e-10,
+        "objective": 0.9010723842145634,
+        "relative_objective_difference": 8.909456124753714e-10,
+        "relative_vector_difference": 5.340422394734414e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.010986227,
+        "ms": 27.674411998305004,
+        "primal": 6.0618543216676e-12,
+        "stationarity": 5.745659449567449e-07,
+        "complementarity": 1.0238999704456836e-11,
+        "residual": 5.745659449567449e-07,
+        "objective": 0.9010723851546698,
+        "relative_objective_difference": 1.52373939619864e-10,
+        "relative_vector_difference": 2.1081552527270608e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.013193714,
+        "ms": 30.672746001073392,
+        "primal": 0.0,
+        "stationarity": 8.080954855376826e-07,
+        "complementarity": 2.922376902595287e-11,
+        "residual": 8.080954855376826e-07,
+        "objective": 0.901072385658577,
+        "relative_objective_difference": 7.116044150147265e-10,
+        "relative_vector_difference": 3.516236384781725e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.00588370400146232,
+        "ms": 26.41421099906438,
+        "primal": 0.0,
+        "stationarity": 1.806914042650111e-06,
+        "complementarity": 1.219832751125802e-10,
+        "residual": 1.806914042650111e-06,
+        "objective": 0.9010723879317966,
+        "relative_objective_difference": 3.2343979778244774e-09,
+        "relative_vector_difference": 1.6510361029194444e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_6",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "07fe12470547ce5d8a3b1ce3d03603ca2cdae5fbf6d83112601b009bc1c02f0d",
+    "reference": {
+      "objective": 0.2882972181370853,
+      "primal": 4.586860887077994e-16,
+      "cross_solver_objective_difference": 3.296235059320057e-12,
+      "numerical_dual_lower_bound": 0.2882972181370851,
+      "numerical_relative_gap": 7.701933662760808e-16
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 7.34493008683703e-13,
+        "stationarity": 1.5925090268739804e-12,
+        "complementarity": 6.29222902592631e-13,
+        "residual": 1.5925090268739804e-12,
+        "objective": 0.28829721813497233,
+        "iterations": 10,
+        "active": 13,
+        "ms": 2.7560959970287513,
+        "relative_objective_difference": 7.329160073483184e-12,
+        "relative_vector_difference": 2.010789558833721e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001848291,
+        "ms": 22.476396003185073,
+        "primal": 0.0,
+        "stationarity": 2.910782156308279e-13,
+        "complementarity": 5.335940231114628e-12,
+        "residual": 5.335940231114628e-12,
+        "objective": 0.2882972181532485,
+        "relative_objective_difference": 5.606430061465161e-11,
+        "relative_vector_difference": 2.9990082648993915e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007064854,
+        "ms": 23.448728999937885,
+        "primal": 1.7038185892688545e-12,
+        "stationarity": 4.727059203484759e-07,
+        "complementarity": 8.68269257827469e-12,
+        "residual": 4.727059203484759e-07,
+        "objective": 0.2882972181971884,
+        "relative_objective_difference": 2.084761329319511e-10,
+        "relative_vector_difference": 1.9356664730313696e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008438405,
+        "ms": 25.094602999160998,
+        "primal": 0.0,
+        "stationarity": 1.204795811716925e-06,
+        "complementarity": 6.85831159900202e-11,
+        "residual": 1.204795811716925e-06,
+        "objective": 0.2882972185118811,
+        "relative_objective_difference": 1.3000326812867266e-09,
+        "relative_vector_difference": 1.054812468912923e-05,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004876807000982808,
+        "ms": 30.75899000032223,
+        "primal": 0.0,
+        "stationarity": 9.189027086452823e-07,
+        "complementarity": 2.6865486745181163e-10,
+        "residual": 9.189027086452823e-07,
+        "objective": 0.28829721850878587,
+        "relative_objective_difference": 1.2892963783091796e-09,
+        "relative_vector_difference": 2.7795564610282434e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_7",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "75275d54cd8fe7581298b0098afff010b7e7e3156eb140a55514b59fa79851cb",
+    "reference": {
+      "objective": 0.18438418073674145,
+      "primal": 4.941741588105742e-16,
+      "cross_solver_objective_difference": 1.4525961636486823e-11,
+      "numerical_dual_lower_bound": 0.1843841807367414,
+      "numerical_relative_gap": 3.01062439355983e-16
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 1.488358227744426e-16,
+        "stationarity": 2.8313634544988774e-15,
+        "complementarity": 4.400669087804174e-17,
+        "residual": 2.8313634544988774e-15,
+        "objective": 0.1843841807367416,
+        "iterations": 12,
+        "active": 13,
+        "ms": 3.529749999870546,
+        "relative_objective_difference": 7.526560983899574e-16,
+        "relative_vector_difference": 1.428185514563416e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002148651,
+        "ms": 17.956495001271833,
+        "primal": 4.941741588105742e-16,
+        "stationarity": 1.44254558650762e-15,
+        "complementarity": 5.822889129769894e-17,
+        "residual": 1.44254558650762e-15,
+        "objective": 0.18438418073674145,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009890753,
+        "ms": 25.784796998777892,
+        "primal": 0.0,
+        "stationarity": 3.2311595056246923e-07,
+        "complementarity": 2.388503552264254e-11,
+        "residual": 3.2311595056246923e-07,
+        "objective": 0.18438418104809987,
+        "relative_objective_difference": 1.6886395027579307e-09,
+        "relative_vector_difference": 3.3152182190677956e-07,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.011208957,
+        "ms": 26.59657500043977,
+        "primal": 0.0,
+        "stationarity": 1.0571855110949134e-07,
+        "complementarity": 6.7832213504205186e-12,
+        "residual": 1.0571855110949134e-07,
+        "objective": 0.18438418077574653,
+        "relative_objective_difference": 2.115424262007995e-10,
+        "relative_vector_difference": 1.2052624131410192e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005344493001757655,
+        "ms": 21.020870000938885,
+        "primal": 0.0,
+        "stationarity": 9.687245980232989e-09,
+        "complementarity": 6.74339504129247e-09,
+        "residual": 9.687245980232989e-09,
+        "objective": 0.1843841964013175,
+        "relative_objective_difference": 8.495618219720999e-08,
+        "relative_vector_difference": 1.6047839037652243e-05,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_8",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "0913ce9b238015051b1bdb6f9964b9b301a9c763e19ec84136c7b5c11ac9996f",
+    "reference": {
+      "objective": 0.29596146656997724,
+      "primal": 1.0170747069209798e-15,
+      "cross_solver_objective_difference": 1.0476655661493829e-11,
+      "numerical_dual_lower_bound": 0.29596146656997774,
+      "numerical_relative_gap": -1.6880588100586221e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 6.561772302715988e-17,
+        "stationarity": 2.545838045320695e-15,
+        "complementarity": 2.334631250719048e-16,
+        "residual": 2.545838045320695e-15,
+        "objective": 0.29596146656997807,
+        "iterations": 6,
+        "active": 15,
+        "ms": 2.0878279974567704,
+        "relative_objective_difference": 2.8134313500977034e-15,
+        "relative_vector_difference": 9.674456724288966e-15,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002084363,
+        "ms": 20.22650900107692,
+        "primal": 0.0,
+        "stationarity": 8.168780839444015e-12,
+        "complementarity": 9.671034860386998e-12,
+        "residual": 9.671034860386998e-12,
+        "objective": 0.29596146662176287,
+        "relative_objective_difference": 1.749742354599064e-10,
+        "relative_vector_difference": 6.687270699154022e-11,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008789527,
+        "ms": 26.683588999731,
+        "primal": 1.038330261650867e-12,
+        "stationarity": 1.6616887495594926e-07,
+        "complementarity": 1.4759898635123941e-12,
+        "residual": 1.6616887495594926e-07,
+        "objective": 0.2959614665908764,
+        "relative_objective_difference": 7.061450101819227e-11,
+        "relative_vector_difference": 1.157416275189947e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.011072902,
+        "ms": 28.887251999549335,
+        "primal": 0.0,
+        "stationarity": 3.5432269707405265e-07,
+        "complementarity": 1.162331513104813e-11,
+        "residual": 3.5432269707405265e-07,
+        "objective": 0.29596146669905604,
+        "relative_objective_difference": 4.3613381396407587e-10,
+        "relative_vector_difference": 3.502223753089628e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0051134989989805035,
+        "ms": 22.478416001831647,
+        "primal": 0.0,
+        "stationarity": 3.544740389553367e-06,
+        "complementarity": 8.597045670713862e-10,
+        "residual": 3.544740389553367e-06,
+        "objective": 0.2959614740536981,
+        "relative_objective_difference": 2.5286132522463826e-08,
+        "relative_vector_difference": 6.094319452466174e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k1000_9",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "d1dafc3d52ebb574c93901312a90ad655bffb11ef126caac78b93609daf5df8e",
+    "reference": {
+      "objective": 0.15006702466834548,
+      "primal": 8.361579619869263e-16,
+      "cross_solver_objective_difference": 6.458946862122207e-10,
+      "numerical_dual_lower_bound": 0.15006702466834587,
+      "numerical_relative_gap": -2.5893633826457134e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 3.010492800441177e-16,
+        "stationarity": 1.7808087048941286e-15,
+        "complementarity": 5.402981328793777e-17,
+        "residual": 1.7808087048941286e-15,
+        "objective": 0.15006702466834584,
+        "iterations": 8,
+        "active": 15,
+        "ms": 2.5098869991779793,
+        "relative_objective_difference": 2.404408855313877e-15,
+        "relative_vector_difference": 1.044248761659483e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002326669,
+        "ms": 19.67794899974251,
+        "primal": 8.361579619869263e-16,
+        "stationarity": 1.0019736296492779e-15,
+        "complementarity": 1.0805962657587527e-16,
+        "residual": 1.0019736296492779e-15,
+        "objective": 0.15006702466834548,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007923958,
+        "ms": 23.687114000495058,
+        "primal": 0.0,
+        "stationarity": 1.9916070139087084e-07,
+        "complementarity": 7.630545827470783e-12,
+        "residual": 1.9916070139087084e-07,
+        "objective": 0.15006702475601608,
+        "relative_objective_difference": 5.842095770291433e-10,
+        "relative_vector_difference": 2.0814222920543906e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.008812804,
+        "ms": 30.02287100025569,
+        "primal": 0.0,
+        "stationarity": 2.52098890585846e-07,
+        "complementarity": 7.91025033505996e-12,
+        "residual": 2.52098890585846e-07,
+        "objective": 0.15006702476527298,
+        "relative_objective_difference": 6.458946862122207e-10,
+        "relative_vector_difference": 3.1088068326898846e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005586101000517374,
+        "ms": 24.387794997892343,
+        "primal": 0.0,
+        "stationarity": 7.43095243519395e-08,
+        "complementarity": 8.33029762010582e-12,
+        "residual": 7.43095243519395e-08,
+        "objective": 0.1500670248019468,
+        "relative_objective_difference": 8.902776925391592e-10,
+        "relative_vector_difference": 3.147204816944208e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_0",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "c1fd1ce93aa50631daddf03f0046c99c64a1f54525417e3ec868dffa07b40766",
+    "reference": {
+      "objective": 0.059889097488300784,
+      "primal": 1.3546867423512236e-11,
+      "cross_solver_objective_difference": 2.518118401580664e-11,
+      "numerical_dual_lower_bound": 0.05988909748829007,
+      "numerical_relative_gap": 1.788915284576738e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 1.5162724740490957e-15,
+        "stationarity": 3.3163562178829383e-15,
+        "complementarity": 2.520138493191813e-16,
+        "residual": 3.3163562178829383e-15,
+        "objective": 0.05988909748828868,
+        "iterations": 8,
+        "active": 15,
+        "ms": 3.2768980017863214,
+        "relative_objective_difference": 2.0206400623716524e-13,
+        "relative_vector_difference": 6.3812128812416824e-12,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.005165725,
+        "ms": 22.669996000331594,
+        "primal": 8.577810111439785e-10,
+        "stationarity": 2.4930499363713457e-12,
+        "complementarity": 2.4503393077817128e-12,
+        "residual": 8.577810111439785e-10,
+        "objective": 0.059889097489828,
+        "relative_objective_difference": 2.5500732484385827e-11,
+        "relative_vector_difference": 3.9900643956393976e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.00894978,
+        "ms": 25.67915899999207,
+        "primal": 0.0,
+        "stationarity": 1.1170865786425406e-07,
+        "complementarity": 3.679621806112165e-12,
+        "residual": 1.1170865786425406e-07,
+        "objective": 0.059889097539881135,
+        "relative_objective_difference": 8.612644582179143e-10,
+        "relative_vector_difference": 5.209722517082965e-07,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010446314,
+        "ms": 28.420385999197606,
+        "primal": 0.0,
+        "stationarity": 2.0841995753399835e-07,
+        "complementarity": 5.004346984373858e-12,
+        "residual": 2.0841995753399835e-07,
+        "objective": 0.059889097527907664,
+        "relative_objective_difference": 6.613370702944071e-10,
+        "relative_vector_difference": 7.746166864757085e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005380937000154518,
+        "ms": 25.131088998023188,
+        "primal": 0.0,
+        "stationarity": 1.7332305304079431e-06,
+        "complementarity": 7.017338855737663e-10,
+        "residual": 1.7332305304079431e-06,
+        "objective": 0.05988910712239822,
+        "relative_objective_difference": 1.6086563064948365e-07,
+        "relative_vector_difference": 1.5122187745137528e-05,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_1",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "7c2097c7d0a5e003d10e6450e4c6a0f8081ad068d55c57e3f9a16f67e7f302bd",
+    "reference": {
+      "objective": 0.12099124158176396,
+      "primal": 6.14358873018855e-14,
+      "cross_solver_objective_difference": 6.545910644708405e-09,
+      "numerical_dual_lower_bound": 0.12099124158177185,
+      "numerical_relative_gap": -6.526473453295479e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 2.1948051162181264e-12,
+        "stationarity": 1.8031684891357707e-12,
+        "complementarity": 9.359151907633173e-13,
+        "residual": 2.1948051162181264e-12,
+        "objective": 0.12099124157846107,
+        "iterations": 9,
+        "active": 16,
+        "ms": 3.998758998932317,
+        "relative_objective_difference": 2.7298552353908918e-11,
+        "relative_vector_difference": 7.875289281231704e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.00308651,
+        "ms": 24.17997999873478,
+        "primal": 1.7660559016230605e-11,
+        "stationarity": 1.1910411827579925e-11,
+        "complementarity": 2.071872555930759e-12,
+        "residual": 1.7660559016230605e-11,
+        "objective": 0.12099124158888114,
+        "relative_objective_difference": 5.882394255012701e-11,
+        "relative_vector_difference": 5.556747698585801e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007583282,
+        "ms": 23.603629000717774,
+        "primal": 1.4369179679340604e-12,
+        "stationarity": 3.644159751331682e-07,
+        "complementarity": 1.3277204506522726e-11,
+        "residual": 3.644159751331682e-07,
+        "objective": 0.12099124172809037,
+        "relative_objective_difference": 1.2093967084698129e-09,
+        "relative_vector_difference": 2.472162131528827e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.010882637,
+        "ms": 27.29982999881031,
+        "primal": 0.0,
+        "stationarity": 1.5456892800657289e-07,
+        "complementarity": 2.5226372096119876e-12,
+        "residual": 1.5456892800657289e-07,
+        "objective": 0.12099124160163684,
+        "relative_objective_difference": 1.6425057598122145e-10,
+        "relative_vector_difference": 2.7291909317853354e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.006911560998560162,
+        "ms": 25.30157799992594,
+        "primal": 0.0,
+        "stationarity": 1.26549018829284e-08,
+        "complementarity": 4.231347062124012e-12,
+        "residual": 1.26549018829284e-08,
+        "objective": 0.12099124162567672,
+        "relative_objective_difference": 3.6294166206754507e-10,
+        "relative_vector_difference": 1.245531641625377e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_2",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "e259281d318d4f9f501e0e2531f85600effe95abbd8f648146be2f01b6ef6d27",
+    "reference": {
+      "objective": 0.12862252922504125,
+      "primal": 1.3229274188466795e-15,
+      "cross_solver_objective_difference": 9.478185160177391e-12,
+      "numerical_dual_lower_bound": 0.12862252922504303,
+      "numerical_relative_gap": -1.3810619726597752e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 5,
+        "primal": 7.496438848532684e-16,
+        "stationarity": 3.2524437144532904e-15,
+        "complementarity": 2.5428581970867105e-16,
+        "residual": 3.2524437144532904e-15,
+        "objective": 0.12862252922504092,
+        "iterations": 12,
+        "active": 11,
+        "ms": 3.3835489994089585,
+        "relative_objective_difference": 2.5894911987370782e-15,
+        "relative_vector_difference": 3.1687908470383703e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.004174125,
+        "ms": 27.088820999779273,
+        "primal": 1.3229274188466795e-15,
+        "stationarity": 2.6048725646702064e-15,
+        "complementarity": 5.235296288119661e-16,
+        "residual": 2.6048725646702064e-15,
+        "objective": 0.12862252922504125,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009219367,
+        "ms": 28.43996500087087,
+        "primal": 0.0,
+        "stationarity": 4.1517898081287454e-07,
+        "complementarity": 2.7769806835753773e-11,
+        "residual": 4.1517898081287454e-07,
+        "objective": 0.12862252949642763,
+        "relative_objective_difference": 2.109944402597625e-09,
+        "relative_vector_difference": 3.7111951696300124e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.012218312,
+        "ms": 32.80814299796475,
+        "primal": 0.0,
+        "stationarity": 2.0957319745638714e-07,
+        "complementarity": 4.3735500627445665e-12,
+        "residual": 2.0957319745638714e-07,
+        "objective": 0.128622529253018,
+        "relative_objective_difference": 2.175105711749845e-10,
+        "relative_vector_difference": 2.906372765550675e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0059708430017053615,
+        "ms": 25.78878399799578,
+        "primal": 0.0,
+        "stationarity": 1.3258888336759996e-07,
+        "complementarity": 2.163877359342172e-11,
+        "residual": 1.3258888336759996e-07,
+        "objective": 0.12862252944679659,
+        "relative_objective_difference": 1.7240784927186157e-09,
+        "relative_vector_difference": 1.5475047135088676e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_3",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "e0d49fe7503fef6376518c26fb0d7d614570fa3f3ebc178b19c1fccd9d7cb999",
+    "reference": {
+      "objective": 0.18511265950413006,
+      "primal": 1.4901677527563634e-15,
+      "cross_solver_objective_difference": 3.1668760246713046e-09,
+      "numerical_dual_lower_bound": 0.1851126595041311,
+      "numerical_relative_gap": -5.697675546444013e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 9,
+        "primal": 6.976016483020097e-17,
+        "stationarity": 4.153056760466999e-15,
+        "complementarity": 1.1171284356119024e-16,
+        "residual": 4.153056760466999e-15,
+        "objective": 0.1851126595041315,
+        "iterations": 12,
+        "active": 15,
+        "ms": 4.949377002049005,
+        "relative_objective_difference": 7.796819168818123e-15,
+        "relative_vector_difference": 2.365579725274667e-14,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0027662949999999998,
+        "ms": 23.952436000399757,
+        "primal": 1.4901677527563634e-15,
+        "stationarity": 2.1128633464657935e-15,
+        "complementarity": 4.096137597243633e-16,
+        "residual": 2.1128633464657935e-15,
+        "objective": 0.18511265950413006,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009317226,
+        "ms": 27.26157299912302,
+        "primal": 2.3486890918715565e-11,
+        "stationarity": 3.490331994872796e-07,
+        "complementarity": 1.4948189316696737e-11,
+        "residual": 3.490331994872796e-07,
+        "objective": 0.18511265952616668,
+        "relative_objective_difference": 1.19044384029628e-10,
+        "relative_vector_difference": 1.947902877729341e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.011443681,
+        "ms": 31.938557000103174,
+        "primal": 0.0,
+        "stationarity": 2.9868581581859254e-07,
+        "complementarity": 5.086116221090912e-11,
+        "residual": 2.9868581581859254e-07,
+        "objective": 0.1851126600903589,
+        "relative_objective_difference": 3.1668760246713046e-09,
+        "relative_vector_difference": 4.633045283324703e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005788372000097297,
+        "ms": 26.110691000212682,
+        "primal": 0.0,
+        "stationarity": 4.4045343710836276e-07,
+        "complementarity": 4.818253731881515e-10,
+        "residual": 4.4045343710836276e-07,
+        "objective": 0.18511266468407642,
+        "relative_objective_difference": 2.7982669443621992e-08,
+        "relative_vector_difference": 7.46786905614179e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_4",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "61550d42eca3209d556ac93088503018257d6fe56be2f72a35d9ed4cca6af56c",
+    "reference": {
+      "objective": 0.09044467615584857,
+      "primal": 2.096572581113361e-14,
+      "cross_solver_objective_difference": 8.636238653647436e-09,
+      "numerical_dual_lower_bound": 0.0904446761558701,
+      "numerical_relative_gap": -2.37984697439025e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 3,
+        "primal": 6.328967152040415e-14,
+        "stationarity": 4.9567095288456636e-14,
+        "complementarity": 1.6612728774708304e-14,
+        "residual": 6.328967152040415e-14,
+        "objective": 0.09044467615580398,
+        "iterations": 11,
+        "active": 12,
+        "ms": 2.8723850009555463,
+        "relative_objective_difference": 4.930011817353884e-13,
+        "relative_vector_difference": 1.8882539064607127e-12,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002321612,
+        "ms": 20.532252001430606,
+        "primal": 3.3922921843443306e-10,
+        "stationarity": 5.685256159938508e-11,
+        "complementarity": 8.364936158280822e-11,
+        "residual": 3.3922921843443306e-10,
+        "objective": 0.0904446758220054,
+        "relative_objective_difference": 3.6911313027547065e-09,
+        "relative_vector_difference": 3.931783173016207e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009273289,
+        "ms": 27.106047000415856,
+        "primal": 0.0,
+        "stationarity": 3.0164204634524783e-07,
+        "complementarity": 7.675478742785843e-12,
+        "residual": 3.0164204634524783e-07,
+        "objective": 0.09044467624803831,
+        "relative_objective_difference": 1.0192942898331512e-09,
+        "relative_vector_difference": 3.3511598082181373e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.012369944,
+        "ms": 29.794504000165034,
+        "primal": 0.0,
+        "stationarity": 1.411946263970879e-07,
+        "complementarity": 1.5212791323451523e-12,
+        "residual": 1.411946263970879e-07,
+        "objective": 0.09044467616911936,
+        "relative_objective_difference": 1.467282300178849e-10,
+        "relative_vector_difference": 2.6985158006252825e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005981058002362261,
+        "ms": 25.53672200156143,
+        "primal": 0.0,
+        "stationarity": 1.8683507142665257e-07,
+        "complementarity": 1.9211609814201705e-11,
+        "residual": 1.8683507142665257e-07,
+        "objective": 0.0904446763511452,
+        "relative_objective_difference": 2.1592937737613866e-09,
+        "relative_vector_difference": 7.240796527883597e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_5",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "ea6fb5540416c5543119f0bb039bc344cbc70ec0fce04a3a436c931aff0351e9",
+    "reference": {
+      "objective": 0.03438971839238052,
+      "primal": 1.192860204081018e-14,
+      "cross_solver_objective_difference": 2.7046976672630625e-11,
+      "numerical_dual_lower_bound": 0.034389718392384444,
+      "numerical_relative_gap": -1.1420314364893607e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 5.1281099803375007e-14,
+        "stationarity": 1.6877887724746852e-14,
+        "complementarity": 5.6901557181338755e-15,
+        "residual": 5.1281099803375007e-14,
+        "objective": 0.0343897183923657,
+        "iterations": 11,
+        "active": 14,
+        "ms": 3.554537001036806,
+        "relative_objective_difference": 4.307839429160398e-13,
+        "relative_vector_difference": 1.191728743168671e-12,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0021980460000000004,
+        "ms": 18.58036900011939,
+        "primal": 1.192860204081018e-14,
+        "stationarity": 6.191448492802905e-15,
+        "complementarity": 1.3235988185146549e-15,
+        "residual": 1.192860204081018e-14,
+        "objective": 0.03438971839238052,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.00911291,
+        "ms": 26.078383998537902,
+        "primal": 0.0,
+        "stationarity": 1.0120131576386357e-07,
+        "complementarity": 2.1280544816482442e-12,
+        "residual": 1.0120131576386357e-07,
+        "objective": 0.034389718418798405,
+        "relative_objective_difference": 7.681914812013406e-10,
+        "relative_vector_difference": 1.5923518562625885e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.009003705,
+        "ms": 24.54489299998386,
+        "primal": 0.0,
+        "stationarity": 5.392235791005072e-07,
+        "complementarity": 7.574589143384778e-11,
+        "residual": 5.392235791005072e-07,
+        "objective": 0.03438971904139232,
+        "relative_objective_difference": 1.8872262785887067e-08,
+        "relative_vector_difference": 3.115025380472048e-05,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.004666154000005918,
+        "ms": 22.496363999380264,
+        "primal": 0.0,
+        "stationarity": 5.2963439506762687e-08,
+        "complementarity": 2.8586293865908857e-11,
+        "residual": 5.2963439506762687e-08,
+        "objective": 0.03438971845286469,
+        "relative_objective_difference": 1.7587865226271332e-09,
+        "relative_vector_difference": 3.1939514402499305e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_6",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "ac5c7b0affae9399e2f09a3e6a0612a8b36feba7e72eeafd28dc04d4fe1e2fd4",
+    "reference": {
+      "objective": 0.03708586638262949,
+      "primal": 9.954753451407838e-15,
+      "cross_solver_objective_difference": 1.043926913745571e-10,
+      "numerical_dual_lower_bound": 0.037085866382632934,
+      "numerical_relative_gap": -9.280331598104516e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 5.226374051426387e-16,
+        "stationarity": 3.846798931276375e-15,
+        "complementarity": 1.6231414083882148e-17,
+        "residual": 3.846798931276375e-15,
+        "objective": 0.03708586638263331,
+        "iterations": 9,
+        "active": 12,
+        "ms": 2.128560998244211,
+        "relative_objective_difference": 1.0290690280156217e-13,
+        "relative_vector_difference": 2.5870130511337275e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0022985989999999997,
+        "ms": 18.931648999569006,
+        "primal": 0.0,
+        "stationarity": 1.0904098796230255e-11,
+        "complementarity": 8.334357371885498e-12,
+        "residual": 1.0904098796230255e-11,
+        "objective": 0.03708586641523885,
+        "relative_objective_difference": 8.792934569882776e-10,
+        "relative_vector_difference": 1.2774956461447676e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.010275861,
+        "ms": 26.76515399798518,
+        "primal": 0.0,
+        "stationarity": 1.8465227627332154e-07,
+        "complementarity": 4.073988990575693e-12,
+        "residual": 1.8465227627332154e-07,
+        "objective": 0.03708586643341573,
+        "relative_objective_difference": 1.3694229441345894e-09,
+        "relative_vector_difference": 4.2541343298517805e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.009774833,
+        "ms": 26.619732998369727,
+        "primal": 0.0,
+        "stationarity": 1.980664141158916e-07,
+        "complementarity": 2.5410790094188584e-11,
+        "residual": 1.980664141158916e-07,
+        "objective": 0.03708586657158628,
+        "relative_objective_difference": 5.0951159066137474e-09,
+        "relative_vector_difference": 8.859874938388465e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005701353002223186,
+        "ms": 23.038803999952506,
+        "primal": 0.0,
+        "stationarity": 5.507036797695587e-08,
+        "complementarity": 2.659583006686772e-10,
+        "residual": 5.507036797695587e-08,
+        "objective": 0.03708586722639204,
+        "relative_objective_difference": 2.2751593214460643e-08,
+        "relative_vector_difference": 3.5027959553913106e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_7",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "b3c52b29d882ed5cc3a61486a19c4579d2ce669c25213700f2dc25643ae35410",
+    "reference": {
+      "objective": 0.10792671409634658,
+      "primal": 1.2207364357789783e-15,
+      "cross_solver_objective_difference": 5.849039570922996e-09,
+      "numerical_dual_lower_bound": 0.10792671409634662,
+      "numerical_relative_gap": -3.8575586936036164e-16
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 2,
+        "primal": 5.4737874560572164e-14,
+        "stationarity": 1.8133023169910512e-14,
+        "complementarity": 1.1517717225051731e-14,
+        "residual": 5.4737874560572164e-14,
+        "objective": 0.10792671409628912,
+        "iterations": 4,
+        "active": 17,
+        "ms": 1.783829000487458,
+        "relative_objective_difference": 5.32343099717299e-13,
+        "relative_vector_difference": 1.1833147142835484e-12,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.001938273,
+        "ms": 19.66068200272275,
+        "primal": 2.629095187458725e-10,
+        "stationarity": 2.3153175694879494e-11,
+        "complementarity": 6.118681560112727e-11,
+        "residual": 2.629095187458725e-10,
+        "objective": 0.10792671380825984,
+        "relative_objective_difference": 2.6692810712816805e-09,
+        "relative_vector_difference": 9.053439785993793e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007300358,
+        "ms": 22.12228699863772,
+        "primal": 0.0,
+        "stationarity": 2.1016728955005226e-07,
+        "complementarity": 1.2236793536943912e-11,
+        "residual": 2.1016728955005226e-07,
+        "objective": 0.10792671418871505,
+        "relative_objective_difference": 8.558444010273877e-10,
+        "relative_vector_difference": 2.7226842333795043e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010441383,
+        "ms": 28.92111599794589,
+        "primal": 0.0,
+        "stationarity": 3.0196649928571554e-07,
+        "complementarity": 4.484995513966807e-11,
+        "residual": 3.0196649928571554e-07,
+        "objective": 0.1079267147276142,
+        "relative_objective_difference": 5.849039570922996e-09,
+        "relative_vector_difference": 6.7981153137124e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005677377001120476,
+        "ms": 23.47873899998376,
+        "primal": 0.0,
+        "stationarity": 1.718369261250024e-07,
+        "complementarity": 1.7922442267700275e-10,
+        "residual": 1.718369261250024e-07,
+        "objective": 0.10792671594762739,
+        "relative_objective_difference": 1.7153128627206552e-08,
+        "relative_vector_difference": 5.1200326653852834e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_8",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "3de8834bc854c60fa42953117615b1d2c7dc3db7cdfe2225250242c0fb01469e",
+    "reference": {
+      "objective": 0.17462326372442757,
+      "primal": 7.748925634861386e-16,
+      "cross_solver_objective_difference": 1.4112767716910738e-12,
+      "numerical_dual_lower_bound": 0.17462326372442785,
+      "numerical_relative_gap": -1.5894546364354923e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 2.58635106836754e-12,
+        "stationarity": 2.5495910112707838e-12,
+        "complementarity": 1.0613082565723862e-12,
+        "residual": 2.58635106836754e-12,
+        "objective": 0.1746232637195015,
+        "iterations": 7,
+        "active": 18,
+        "ms": 3.6026519992446993,
+        "relative_objective_difference": 2.8209799832920764e-11,
+        "relative_vector_difference": 8.023191110308898e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0024210440000000002,
+        "ms": 21.365371998399496,
+        "primal": 7.748925634861386e-16,
+        "stationarity": 1.6991987255045672e-15,
+        "complementarity": 7.641607365629741e-17,
+        "residual": 1.6991987255045672e-15,
+        "objective": 0.17462326372442757,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007181157,
+        "ms": 23.09020199754741,
+        "primal": 4.3807471854303164e-12,
+        "stationarity": 3.5387872962946696e-07,
+        "complementarity": 6.891579281636685e-12,
+        "residual": 3.5387872962946696e-07,
+        "objective": 0.17462326378957008,
+        "relative_objective_difference": 3.7304595684419193e-10,
+        "relative_vector_difference": 1.398674763879516e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010420918,
+        "ms": 28.90708400082076,
+        "primal": 0.0,
+        "stationarity": 5.821220290435633e-07,
+        "complementarity": 2.183833843180921e-11,
+        "residual": 5.821220290435633e-07,
+        "objective": 0.17462326396552127,
+        "relative_objective_difference": 1.38065052397438e-09,
+        "relative_vector_difference": 8.971294349898252e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0048723610016168095,
+        "ms": 22.15018000060809,
+        "primal": 0.0,
+        "stationarity": 6.835516750399964e-08,
+        "complementarity": 7.116142734420928e-11,
+        "residual": 6.835516750399964e-08,
+        "objective": 0.1746232644332356,
+        "relative_objective_difference": 4.059069777797139e-09,
+        "relative_vector_difference": 2.532037919837638e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k10000_9",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "09aea8bd34cb38e5db21cc965cdfa8b7989fc6b3d876743b32edd03f2215be41",
+    "reference": {
+      "objective": 0.254794267548676,
+      "primal": 1.2534900585996123e-15,
+      "cross_solver_objective_difference": 1.5744345010084288e-11,
+      "numerical_dual_lower_bound": 0.25479426754867646,
+      "numerical_relative_gap": -1.7429325004936526e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 5,
+        "primal": 1.4428587918329008e-12,
+        "stationarity": 2.3120222822526713e-12,
+        "complementarity": 7.446899916560178e-13,
+        "residual": 2.3120222822526713e-12,
+        "objective": 0.25479426754397705,
+        "iterations": 9,
+        "active": 16,
+        "ms": 3.950939000787912,
+        "relative_objective_difference": 1.84421866542859e-11,
+        "relative_vector_difference": 5.834068251911632e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0023447079999999996,
+        "ms": 18.983717996889027,
+        "primal": 1.2534900585996123e-15,
+        "stationarity": 1.7115408515599447e-15,
+        "complementarity": 1.5970190685282235e-16,
+        "residual": 1.7115408515599447e-15,
+        "objective": 0.254794267548676,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007529044,
+        "ms": 25.25324499947601,
+        "primal": 4.752927098089068e-12,
+        "stationarity": 1.770191708348953e-07,
+        "complementarity": 7.671677659377697e-12,
+        "residual": 1.770191708348953e-07,
+        "objective": 0.2547942675692714,
+        "relative_objective_difference": 8.0831544842269e-11,
+        "relative_vector_difference": 1.3416463331374784e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.012100759,
+        "ms": 30.565564000426093,
+        "primal": 0.0,
+        "stationarity": 1.0705236722844975e-07,
+        "complementarity": 4.130601348830395e-13,
+        "residual": 1.0705236722844975e-07,
+        "objective": 0.2547942675526876,
+        "relative_objective_difference": 1.5744345010084288e-11,
+        "relative_vector_difference": 1.0245570381890166e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005758757997682551,
+        "ms": 23.613153000042075,
+        "primal": 0.0,
+        "stationarity": 1.8456660687996595e-07,
+        "complementarity": 2.7813222093988745e-10,
+        "residual": 1.8456660687996595e-07,
+        "objective": 0.254794270086645,
+        "relative_objective_difference": 9.960855972322786e-09,
+        "relative_vector_difference": 1.4124242452389535e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_0",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "63886ea5ce544831e47eea2f81aaf4a33da43349780830dc10fa5849debe36e6",
+    "reference": {
+      "objective": 0.016735394184027804,
+      "primal": 1.1779164892836037e-15,
+      "cross_solver_objective_difference": 1.5266865520240534e-11,
+      "numerical_dual_lower_bound": 0.016735394184027752,
+      "numerical_relative_gap": 3.1096790256050625e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 7,
+        "primal": 5.02890943066795e-16,
+        "stationarity": 2.9166702048827947e-15,
+        "complementarity": 1.7039721861007807e-17,
+        "residual": 2.9166702048827947e-15,
+        "objective": 0.01673539418402723,
+        "iterations": 8,
+        "active": 15,
+        "ms": 3.7370850004663225,
+        "relative_objective_difference": 3.420646928165569e-14,
+        "relative_vector_difference": 1.3362304897961158e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.003216077,
+        "ms": 19.237451000662986,
+        "primal": 4.187520288351766e-11,
+        "stationarity": 2.981840947342155e-12,
+        "complementarity": 2.4903837462962183e-12,
+        "residual": 4.187520288351766e-11,
+        "objective": 0.016735394175592645,
+        "relative_objective_difference": 5.040310809935863e-10,
+        "relative_vector_difference": 4.702154876270444e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.012381086,
+        "ms": 29.214639998826897,
+        "primal": 0.0,
+        "stationarity": 2.6329883570007097e-08,
+        "complementarity": 2.251397772692108e-12,
+        "residual": 2.6329883570007097e-08,
+        "objective": 0.016735394211391204,
+        "relative_objective_difference": 1.6350615611215453e-09,
+        "relative_vector_difference": 2.2246027193194213e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010765631,
+        "ms": 27.390039002057165,
+        "primal": 0.0,
+        "stationarity": 2.1661076069004808e-07,
+        "complementarity": 3.483930460700638e-11,
+        "residual": 2.1661076069004808e-07,
+        "objective": 0.01673539454749078,
+        "relative_objective_difference": 2.171822013859625e-08,
+        "relative_vector_difference": 1.6045621546518815e-05,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.006004163002216956,
+        "ms": 23.68135600045207,
+        "primal": 0.0,
+        "stationarity": 2.3656471385308668e-07,
+        "complementarity": 5.280452820462815e-11,
+        "residual": 2.3656471385308668e-07,
+        "objective": 0.01673539472684937,
+        "relative_objective_difference": 3.243554107573095e-08,
+        "relative_vector_difference": 2.3978279755184763e-05,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_1",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "495f44f34f2000997c839039b6c39f1bb0a117dd7276a423697ac799028d7812",
+    "reference": {
+      "objective": 0.10810441175308391,
+      "primal": 1.1786429682603947e-15,
+      "cross_solver_objective_difference": 6.03534097033651e-10,
+      "numerical_dual_lower_bound": 0.10810441175308372,
+      "numerical_relative_gap": 1.7972349708832293e-15
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 10,
+        "primal": 3.849269479932961e-13,
+        "stationarity": 3.394197215680069e-13,
+        "complementarity": 1.1600826406876465e-13,
+        "residual": 3.849269479932961e-13,
+        "objective": 0.10810441175249315,
+        "iterations": 14,
+        "active": 15,
+        "ms": 4.542673999822,
+        "relative_objective_difference": 5.464749676823442e-12,
+        "relative_vector_difference": 1.5247152606923198e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002179368,
+        "ms": 20.226838998496532,
+        "primal": 1.1786429682603947e-15,
+        "stationarity": 2.4307471517594478e-15,
+        "complementarity": 1.0060131908259846e-16,
+        "residual": 2.4307471517594478e-15,
+        "objective": 0.10810441175308391,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007087755,
+        "ms": 22.07031899888534,
+        "primal": 0.0,
+        "stationarity": 2.9591334296278234e-07,
+        "complementarity": 6.88693995738902e-12,
+        "residual": 2.9591334296278234e-07,
+        "objective": 0.1081044117996793,
+        "relative_objective_difference": 4.3102213363992345e-10,
+        "relative_vector_difference": 9.684052161343168e-07,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.00921246,
+        "ms": 28.936047998286085,
+        "primal": 0.0,
+        "stationarity": 1.983193913669748e-07,
+        "complementarity": 5.628890674357294e-12,
+        "residual": 1.983193913669748e-07,
+        "objective": 0.10810441181832861,
+        "relative_objective_difference": 6.03534097033651e-10,
+        "relative_vector_difference": 4.228449164621937e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005142270998476306,
+        "ms": 21.947331999399466,
+        "primal": 0.0,
+        "stationarity": 4.814687537903781e-07,
+        "complementarity": 1.9727971359640916e-09,
+        "residual": 4.814687537903781e-07,
+        "objective": 0.10810443245716302,
+        "relative_objective_difference": 1.915192800014242e-07,
+        "relative_vector_difference": 2.8933140754012423e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_2",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "6044970670f38520867e70ee6644015a75e16b812d6b83f5ecf1a49b5874b0fc",
+    "reference": {
+      "objective": 0.007959390254191233,
+      "primal": 1.8617126904625632e-12,
+      "cross_solver_objective_difference": 5.764352649940812e-07,
+      "numerical_dual_lower_bound": 0.007959390254183874,
+      "numerical_relative_gap": 9.245302403935647e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 5,
+        "primal": 1.5363662668505347e-14,
+        "stationarity": 3.2128933679362324e-15,
+        "complementarity": 5.099545246178518e-16,
+        "residual": 1.5363662668505347e-14,
+        "objective": 0.0079593902541828,
+        "iterations": 9,
+        "active": 18,
+        "ms": 3.676552998513216,
+        "relative_objective_difference": 1.0594392971600936e-12,
+        "relative_vector_difference": 2.0955256481641737e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.0030652879999999998,
+        "ms": 21.800360002089292,
+        "primal": 4.547704522965015e-10,
+        "stationarity": 9.084105070964899e-11,
+        "complementarity": 4.422462212782404e-12,
+        "residual": 4.547704522965015e-10,
+        "objective": 0.007959390242403034,
+        "relative_objective_difference": 1.4810429584155122e-09,
+        "relative_vector_difference": 4.130428320338265e-08,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009003475,
+        "ms": 25.530655002512503,
+        "primal": 0.0,
+        "stationarity": 4.805772529788251e-08,
+        "complementarity": 2.9030682127317106e-12,
+        "residual": 4.805772529788251e-08,
+        "objective": 0.00795939029342613,
+        "relative_objective_difference": 4.92938492313587e-09,
+        "relative_vector_difference": 6.137204371681109e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.013281131,
+        "ms": 28.725930002110545,
+        "primal": 0.0,
+        "stationarity": 6.723077210478464e-09,
+        "complementarity": 1.015809690180499e-12,
+        "residual": 6.723077210478464e-09,
+        "objective": 0.007959390260559026,
+        "relative_objective_difference": 8.000353346116479e-10,
+        "relative_vector_difference": 3.6872813430847717e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005462897999677807,
+        "ms": 23.33077599905664,
+        "primal": 0.0,
+        "stationarity": 3.66958742670738e-07,
+        "complementarity": 4.725610042656407e-10,
+        "residual": 3.66958742670738e-07,
+        "objective": 0.007959391303395905,
+        "relative_objective_difference": 1.3181972981448927e-07,
+        "relative_vector_difference": 8.261739768941291e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_3",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "f358f6eec7814df3fcd0996cb02a3123eeaa01a93a5edd2869ffe4cc7485e2a1",
+    "reference": {
+      "objective": 0.04840928442492066,
+      "primal": 0.0,
+      "cross_solver_objective_difference": 2.0356444166811456e-11,
+      "numerical_dual_lower_bound": 0.048409284424897885,
+      "numerical_relative_gap": 4.704355799339178e-13
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 7,
+        "primal": 3.4109994893695885e-12,
+        "stationarity": 1.7171539995850838e-12,
+        "complementarity": 6.895402356513942e-13,
+        "residual": 3.4109994893695885e-12,
+        "objective": 0.04840928442251349,
+        "iterations": 9,
+        "active": 16,
+        "ms": 3.228034998755902,
+        "relative_objective_difference": 4.972527013994378e-11,
+        "relative_vector_difference": 1.3046524240753268e-10,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002176022,
+        "ms": 20.407512001838768,
+        "primal": 0.0,
+        "stationarity": 1.2590102747473105e-14,
+        "complementarity": 6.531403149266483e-15,
+        "residual": 1.2590102747473105e-14,
+        "objective": 0.04840928442492066,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007909409,
+        "ms": 25.16346899938071,
+        "primal": 0.0,
+        "stationarity": 1.7488114561473245e-07,
+        "complementarity": 1.817974720755668e-11,
+        "residual": 1.7488114561473245e-07,
+        "objective": 0.04840928471546876,
+        "relative_objective_difference": 6.00190857849223e-09,
+        "relative_vector_difference": 4.801747864067308e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.013364174,
+        "ms": 30.960232001234544,
+        "primal": 0.0,
+        "stationarity": 1.975217530930995e-08,
+        "complementarity": 4.791226887771714e-12,
+        "residual": 1.975217530930995e-08,
+        "objective": 0.04840928448325436,
+        "relative_objective_difference": 1.2050105609970206e-09,
+        "relative_vector_difference": 3.223627047262523e-07,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0053009770017524716,
+        "ms": 24.26329700028873,
+        "primal": 0.0,
+        "stationarity": 1.1068634723129806e-06,
+        "complementarity": 8.066011280806958e-11,
+        "residual": 1.1068634723129806e-06,
+        "objective": 0.04840928496515555,
+        "relative_objective_difference": 1.1159737185990506e-08,
+        "relative_vector_difference": 6.422393690015139e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_4",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "65f6ef6e7202b8f6af04645e993da8a78fe414a97152913a391d0679ada9483b",
+    "reference": {
+      "objective": 0.050436722963847117,
+      "primal": 0.0,
+      "cross_solver_objective_difference": 3.671730573494089e-11,
+      "numerical_dual_lower_bound": 0.050436722963288806,
+      "numerical_relative_gap": 1.1069520571399426e-11
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 6,
+        "primal": 2.988768775357446e-11,
+        "stationarity": 9.68579004548358e-12,
+        "complementarity": 4.66685899830374e-12,
+        "residual": 2.988768775357446e-11,
+        "objective": 0.0504367229440068,
+        "iterations": 12,
+        "active": 13,
+        "ms": 3.451854001468746,
+        "relative_objective_difference": 3.9337045952843285e-10,
+        "relative_vector_difference": 1.147055281160273e-09,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.003828734,
+        "ms": 21.44094599862001,
+        "primal": 0.0,
+        "stationarity": 2.9260486683265105e-13,
+        "complementarity": 1.2473927995380002e-13,
+        "residual": 2.9260486683265105e-13,
+        "objective": 0.050436722963847117,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007950331,
+        "ms": 25.59858699896722,
+        "primal": 0.0,
+        "stationarity": 9.169292814764865e-08,
+        "complementarity": 6.643267074870011e-12,
+        "residual": 9.169292814764865e-08,
+        "objective": 0.05043672305356699,
+        "relative_objective_difference": 1.778860027965254e-09,
+        "relative_vector_difference": 1.6870854498113588e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal_inaccurate",
+        "backend_seconds": 0.013219394,
+        "ms": 28.484334998211125,
+        "primal": 0.0,
+        "stationarity": 4.020509228168524e-08,
+        "complementarity": 3.9488284572639076e-13,
+        "residual": 4.020509228168524e-08,
+        "objective": 0.05043672296569902,
+        "relative_objective_difference": 3.671730573494089e-11,
+        "relative_vector_difference": 1.6060717642360662e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005042754000896821,
+        "ms": 21.52035600011004,
+        "primal": 0.0,
+        "stationarity": 3.220239862253832e-07,
+        "complementarity": 4.113911698118223e-10,
+        "residual": 3.220239862253832e-07,
+        "objective": 0.05043672471945929,
+        "relative_objective_difference": 3.480821261378886e-08,
+        "relative_vector_difference": 1.1423874972350094e-05,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_5",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "aad369e8139021b47b34bbb7f8a5b7a654e0178d0d6c4672ca0f521843109f61",
+    "reference": {
+      "objective": 0.009098031994557361,
+      "primal": 1.425282902975481e-13,
+      "cross_solver_objective_difference": 1.6822449396753085e-10,
+      "numerical_dual_lower_bound": 0.009098031994556484,
+      "numerical_relative_gap": 9.647911541412092e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 12,
+        "primal": 5.73181146894193e-13,
+        "stationarity": 5.147587762035801e-14,
+        "complementarity": 2.16203829456451e-14,
+        "residual": 5.73181146894193e-13,
+        "objective": 0.009098031994486173,
+        "iterations": 17,
+        "active": 16,
+        "ms": 5.988140997942537,
+        "relative_objective_difference": 7.824532528160633e-12,
+        "relative_vector_difference": 1.584683492144205e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.003405644,
+        "ms": 19.9592639983166,
+        "primal": 1.0498546438543134e-10,
+        "stationarity": 5.291566205236277e-12,
+        "complementarity": 7.569961698993171e-13,
+        "residual": 1.0498546438543134e-10,
+        "objective": 0.009098031992426025,
+        "relative_objective_difference": 2.3426349511755377e-10,
+        "relative_vector_difference": 1.6606998801879608e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.008285849,
+        "ms": 24.199981002311688,
+        "primal": 0.0,
+        "stationarity": 4.6709712453179184e-08,
+        "complementarity": 4.958023342471936e-12,
+        "residual": 4.6709712453179184e-08,
+        "objective": 0.009098032053257557,
+        "relative_objective_difference": 6.4519662912756074e-09,
+        "relative_vector_difference": 5.378514320111825e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010439058,
+        "ms": 25.137720000202535,
+        "primal": 0.0,
+        "stationarity": 8.052607215192143e-08,
+        "complementarity": 5.754575927353959e-12,
+        "residual": 8.052607215192143e-08,
+        "objective": 0.009098032030129807,
+        "relative_objective_difference": 3.909905576475688e-09,
+        "relative_vector_difference": 1.5065192526786076e-05,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005166327999177156,
+        "ms": 21.069123002234846,
+        "primal": 0.0,
+        "stationarity": 7.28657180659227e-08,
+        "complementarity": 1.7226534308602868e-12,
+        "residual": 7.28657180659227e-08,
+        "objective": 0.009098032006091017,
+        "relative_objective_difference": 1.2677088827151498e-09,
+        "relative_vector_difference": 9.61065422887501e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_6",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "5b5b542f6d8e53163db0e7fafad13c7a660e4429d762cd190c4a3b10d1c1ee35",
+    "reference": {
+      "objective": 0.03629697076441135,
+      "primal": 1.4759620313165381e-15,
+      "cross_solver_objective_difference": 6.206909351591274e-12,
+      "numerical_dual_lower_bound": 0.0362969707644105,
+      "numerical_relative_gap": 2.3513916787166647e-14
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 5,
+        "primal": 1.751760683780126e-14,
+        "stationarity": 5.4429688896694306e-15,
+        "complementarity": 1.8968875623896975e-15,
+        "residual": 1.751760683780126e-14,
+        "objective": 0.0362969707644034,
+        "iterations": 7,
+        "active": 18,
+        "ms": 3.6434030007512774,
+        "relative_objective_difference": 2.1908088323652828e-13,
+        "relative_vector_difference": 5.10583856868562e-13,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002284777,
+        "ms": 19.08065400129999,
+        "primal": 4.399061756525608e-11,
+        "stationarity": 8.314554744636432e-12,
+        "complementarity": 4.811828715380024e-12,
+        "residual": 4.399061756525608e-11,
+        "objective": 0.036296970749489704,
+        "relative_objective_difference": 4.1109896878152436e-10,
+        "relative_vector_difference": 8.728983334867478e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007923981,
+        "ms": 23.771782998665003,
+        "primal": 0.0,
+        "stationarity": 8.06731963222194e-08,
+        "complementarity": 1.4421139025098841e-12,
+        "residual": 8.06731963222194e-08,
+        "objective": 0.03629697078094609,
+        "relative_objective_difference": 4.555404626793245e-10,
+        "relative_vector_difference": 1.2246916669960796e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010084591,
+        "ms": 86.13967299970682,
+        "primal": 0.0,
+        "stationarity": 2.898232444085555e-07,
+        "complementarity": 4.346273515620403e-11,
+        "residual": 2.898232444085555e-07,
+        "objective": 0.03629697118826913,
+        "relative_objective_difference": 1.167749722195728e-08,
+        "relative_vector_difference": 1.1139391461113614e-05,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005175731999770505,
+        "ms": 21.689853001589654,
+        "primal": 0.0,
+        "stationarity": 5.866455332389556e-07,
+        "complementarity": 6.462780703201341e-10,
+        "residual": 5.866455332389556e-07,
+        "objective": 0.036296979493113606,
+        "relative_objective_difference": 2.4048018526671265e-07,
+        "relative_vector_difference": 5.063137048856867e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_7",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "2e8464b331b440617c6cbb9f99fe9480b92603c4f7a07b01d29e01d560c507c4",
+    "reference": {
+      "objective": 0.02694206274456081,
+      "primal": 3.9836669432985085e-11,
+      "cross_solver_objective_difference": 1.486799170287897e-10,
+      "numerical_dual_lower_bound": 0.026942062744991287,
+      "numerical_relative_gap": -1.5977807790441098e-11
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 3.1414642208017485e-15,
+        "stationarity": 3.3178498554621897e-15,
+        "complementarity": 2.1572933060094635e-16,
+        "residual": 3.3178498554621897e-15,
+        "objective": 0.026942062744989673,
+        "iterations": 11,
+        "active": 14,
+        "ms": 3.473316002782667,
+        "relative_objective_difference": 1.5917927711920233e-11,
+        "relative_vector_difference": 2.0612294840398592e-10,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.003387296,
+        "ms": 21.331410000129836,
+        "primal": 3.9836669432985085e-11,
+        "stationarity": 1.0271332360163832e-12,
+        "complementarity": 1.2598027453019298e-13,
+        "residual": 3.9836669432985085e-11,
+        "objective": 0.02694206274456081,
+        "relative_objective_difference": 0.0,
+        "relative_vector_difference": 0.0,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.009070125,
+        "ms": 24.280333000206156,
+        "primal": 0.0,
+        "stationarity": 1.0368205505516466e-07,
+        "complementarity": 5.840065048217749e-12,
+        "residual": 1.0368205505516466e-07,
+        "objective": 0.026942062825290814,
+        "relative_objective_difference": 2.9964299062568075e-09,
+        "relative_vector_difference": 4.228899188453931e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.012041553,
+        "ms": 27.629391002847115,
+        "primal": 0.0,
+        "stationarity": 1.9162624189942403e-07,
+        "complementarity": 2.5589458959578727e-11,
+        "residual": 1.9162624189942403e-07,
+        "objective": 0.026942062923458462,
+        "relative_objective_difference": 6.640087355676005e-09,
+        "relative_vector_difference": 1.2568799075068494e-05,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005437439998786431,
+        "ms": 21.57613099916489,
+        "primal": 0.0,
+        "stationarity": 2.03217404101119e-10,
+        "complementarity": 5.580638257336092e-10,
+        "residual": 5.580638257336092e-10,
+        "objective": 0.026942064511430157,
+        "relative_objective_difference": 6.558032924310122e-08,
+        "relative_vector_difference": 7.64689950664744e-06,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_8",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "1e76a20fadd27410e5ad3f4b70837fe1b340ba4b7c47deded6cac79e10a33d8d",
+    "reference": {
+      "objective": 0.023126140160713786,
+      "primal": 7.834043601254301e-13,
+      "cross_solver_objective_difference": 6.696910173771204e-11,
+      "numerical_dual_lower_bound": 0.023126140160612325,
+      "numerical_relative_gap": 4.387265058407392e-12
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 1.6520313851456487e-11,
+        "stationarity": 3.565311070856077e-12,
+        "complementarity": 1.453392908528081e-12,
+        "residual": 1.6520313851456487e-11,
+        "objective": 0.023126140155789517,
+        "iterations": 3,
+        "active": 20,
+        "ms": 2.477590001944918,
+        "relative_objective_difference": 2.12930877847046e-10,
+        "relative_vector_difference": 5.12302378665683e-10,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002139307,
+        "ms": 18.710894000832923,
+        "primal": 6.859845391257372e-09,
+        "stationarity": 5.702669658219282e-11,
+        "complementarity": 1.2049466296945814e-11,
+        "residual": 6.859845391257372e-09,
+        "objective": 0.023126140161262795,
+        "relative_objective_difference": 2.373974867006716e-11,
+        "relative_vector_difference": 7.944781540655615e-09,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.00721624,
+        "ms": 22.436832998209866,
+        "primal": 1.402585710832113e-12,
+        "stationarity": 2.462132866013549e-08,
+        "complementarity": 2.0208438980991114e-13,
+        "residual": 2.462132866013549e-08,
+        "objective": 0.023126140162444738,
+        "relative_objective_difference": 7.484829613203416e-11,
+        "relative_vector_difference": 8.985295190898914e-07,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010049788,
+        "ms": 26.44372599752387,
+        "primal": 0.0,
+        "stationarity": 6.410706358616314e-08,
+        "complementarity": 5.074384583852417e-12,
+        "residual": 6.410706358616314e-08,
+        "objective": 0.023126140237174988,
+        "relative_objective_difference": 3.3062673417136115e-09,
+        "relative_vector_difference": 6.2617373968794e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.005115813000884373,
+        "ms": 21.846389998245286,
+        "primal": 0.0,
+        "stationarity": 4.662418625314668e-08,
+        "complementarity": 8.558337538239466e-11,
+        "residual": 4.662418625314668e-08,
+        "objective": 0.02312614054823492,
+        "relative_objective_difference": 1.675684444292042e-08,
+        "relative_vector_difference": 5.969611869207637e-07,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  },
+  {
+    "case": "conditioning_k100000_9",
+    "M": 100,
+    "N": 20,
+    "tol": 1e-09,
+    "input_sha256": "51d12edece492c4c1e7425f1fc1df4aa1aa545987915a5ff3a1212d309d42a43",
+    "reference": {
+      "objective": 0.03167463467806398,
+      "primal": 3.5224788154168096e-13,
+      "cross_solver_objective_difference": 5.982542570503943e-09,
+      "numerical_dual_lower_bound": 0.0316746346782207,
+      "numerical_relative_gap": -4.9478663071111965e-12
+    },
+    "methods": {
+      "AS-SNC": {
+        "method": "AS-SNC",
+        "newton_steps": 4,
+        "primal": 1.0016588498856341e-12,
+        "stationarity": 2.7667470077299045e-13,
+        "complementarity": 1.2578674468608833e-13,
+        "residual": 1.0016588498856341e-12,
+        "objective": 0.031674634677779756,
+        "iterations": 11,
+        "active": 14,
+        "ms": 3.4294189972570166,
+        "relative_objective_difference": 8.973237926396074e-12,
+        "relative_vector_difference": 8.352771556912748e-11,
+        "passes_common_target": true
+      },
+      "SCS": {
+        "status": "optimal",
+        "backend_seconds": 0.002903394,
+        "ms": 19.029226001293864,
+        "primal": 2.828571716601087e-12,
+        "stationarity": 1.813685945200889e-12,
+        "complementarity": 3.539923392516056e-13,
+        "residual": 2.828571716601087e-12,
+        "objective": 0.03167463467700622,
+        "relative_objective_difference": 3.339448295358734e-11,
+        "relative_vector_difference": 2.7079020253438536e-10,
+        "passes_common_target": true
+      },
+      "ECOS": {
+        "status": "optimal",
+        "backend_seconds": 0.007914006,
+        "ms": 23.32442600163631,
+        "primal": 0.0,
+        "stationarity": 6.806137758420346e-08,
+        "complementarity": 4.137448662703548e-12,
+        "residual": 6.806137758420346e-08,
+        "objective": 0.03167463472244221,
+        "relative_objective_difference": 1.401065259578292e-09,
+        "relative_vector_difference": 2.346964112445943e-06,
+        "passes_common_target": true
+      },
+      "CLARABEL": {
+        "status": "optimal",
+        "backend_seconds": 0.010470014,
+        "ms": 24.988683999254135,
+        "primal": 0.0,
+        "stationarity": 1.2309666745380072e-07,
+        "complementarity": 3.784674260551142e-11,
+        "residual": 1.2309666745380072e-07,
+        "objective": 0.03167463486755883,
+        "relative_objective_difference": 5.982542570503943e-09,
+        "relative_vector_difference": 8.30846142762109e-06,
+        "passes_common_target": true
+      },
+      "MOSEK": {
+        "status": "optimal",
+        "backend_seconds": 0.0054648210025334265,
+        "ms": 21.992501002387144,
+        "primal": 0.0,
+        "stationarity": 3.116056555858877e-07,
+        "complementarity": 4.1147503960467776e-10,
+        "residual": 3.116056555858877e-07,
+        "objective": 0.03167463849569955,
+        "relative_objective_difference": 1.2052658562863284e-07,
+        "relative_vector_difference": 1.1087416011310775e-05,
+        "passes_common_target": true
+      },
+      "GUROBI": {
+        "status": "error",
+        "reason": "Solver 'GUROBI' failed. Try another solver, or solve with verbose=True for more information.",
+        "ms": null
+      }
+    }
+  }
+]

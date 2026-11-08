@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "AS-SNC: a spectral active-set method for second-order cone programs with shared norm coupling"
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+    email: ayman.elnashar@ku.ac.ae
+version: 1.0.0
+date-released: 2026-11-08
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Spectral Active-Set Method for Second-Order Cone Programs with Shared Norm Coupling"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  status: submitted

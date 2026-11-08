@@ -1,0 +1,13 @@
+numpy>=2.0
+scipy>=1.11
+cvxpy>=1.5
+clarabel
+scs
+ecos
+matplotlib
+pandas
+threadpoolctl
+linearmodels    # Fama-French data used in the notebook
+# Optional commercial backends used in the benchmark:
+# mosek         # requires a licence
+# gurobipy      # the free restricted licence limits model size

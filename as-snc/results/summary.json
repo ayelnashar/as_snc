@@ -1,0 +1,450 @@
+{
+  "scaling": [
+    {
+      "group": 25,
+      "n": 8,
+      "AS-SNC": {
+        "ms": 1.8107585019606631,
+        "returned": 8,
+        "passes": 8
+      },
+      "SCS": {
+        "ms": 16.477476499858312,
+        "returned": 8,
+        "passes": 8
+      },
+      "ECOS": {
+        "ms": 17.286300999330706,
+        "returned": 8,
+        "passes": 8
+      },
+      "CLARABEL": {
+        "ms": 18.166280999139417,
+        "returned": 8,
+        "passes": 8
+      },
+      "MOSEK": {
+        "ms": 17.234462000487838,
+        "returned": 8,
+        "passes": 8
+      },
+      "GUROBI": {
+        "ms": 21.257525999317295,
+        "returned": 8,
+        "passes": 8
+      }
+    },
+    {
+      "group": 50,
+      "n": 8,
+      "AS-SNC": {
+        "ms": 2.486806000888464,
+        "returned": 8,
+        "passes": 8
+      },
+      "SCS": {
+        "ms": 17.70449700052268,
+        "returned": 8,
+        "passes": 8
+      },
+      "ECOS": {
+        "ms": 19.169313001839328,
+        "returned": 8,
+        "passes": 8
+      },
+      "CLARABEL": {
+        "ms": 19.92748950215173,
+        "returned": 8,
+        "passes": 8
+      },
+      "MOSEK": {
+        "ms": 18.98013199934212,
+        "returned": 8,
+        "passes": 8
+      },
+      "GUROBI": {
+        "ms": 27.60982450126903,
+        "returned": 8,
+        "passes": 8
+      }
+    },
+    {
+      "group": 100,
+      "n": 8,
+      "AS-SNC": {
+        "ms": 4.3094525008200435,
+        "returned": 8,
+        "passes": 8
+      },
+      "SCS": {
+        "ms": 22.565844497876242,
+        "returned": 8,
+        "passes": 8
+      },
+      "ECOS": {
+        "ms": 26.06281400039734,
+        "returned": 8,
+        "passes": 8
+      },
+      "CLARABEL": {
+        "ms": 32.01181400072528,
+        "returned": 8,
+        "passes": 8
+      },
+      "MOSEK": {
+        "ms": 24.08357850072207,
+        "returned": 8,
+        "passes": 8
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    },
+    {
+      "group": 200,
+      "n": 8,
+      "AS-SNC": {
+        "ms": 5.70301500192727,
+        "returned": 8,
+        "passes": 8
+      },
+      "SCS": {
+        "ms": 36.292252498242306,
+        "returned": 8,
+        "passes": 8
+      },
+      "ECOS": {
+        "ms": 66.17551800263755,
+        "returned": 8,
+        "passes": 8
+      },
+      "CLARABEL": {
+        "ms": 59.261631498884526,
+        "returned": 8,
+        "passes": 8
+      },
+      "MOSEK": {
+        "ms": 43.15452650007501,
+        "returned": 8,
+        "passes": 8
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    },
+    {
+      "group": 400,
+      "n": 8,
+      "AS-SNC": {
+        "ms": 17.28871950035682,
+        "returned": 8,
+        "passes": 8
+      },
+      "SCS": {
+        "ms": 89.43099749922112,
+        "returned": 8,
+        "passes": 8
+      },
+      "ECOS": {
+        "ms": 280.6808440000168,
+        "returned": 8,
+        "passes": 8
+      },
+      "CLARABEL": {
+        "ms": 166.9804840003053,
+        "returned": 8,
+        "passes": 8
+      },
+      "MOSEK": {
+        "ms": 117.40845600070315,
+        "returned": 8,
+        "passes": 8
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    }
+  ],
+  "conditioning": [
+    {
+      "group": 10,
+      "n": 10,
+      "AS-SNC": {
+        "ms": 1.7863244975160342,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 17.109608999817283,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 24.103250001644483,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 25.415000000066357,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 20.822585500354762,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    },
+    {
+      "group": 100,
+      "n": 10,
+      "AS-SNC": {
+        "ms": 2.3499110011471203,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 17.485242999100592,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 23.17502950063499,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 25.722009000674007,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 20.79205899826775,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    },
+    {
+      "group": 1000,
+      "n": 10,
+      "AS-SNC": {
+        "ms": 2.5128844990831567,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 19.909633499992196,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 23.421878498993465,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 27.741913499994553,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 22.276391500781756,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    },
+    {
+      "group": 10000,
+      "n": 10,
+      "AS-SNC": {
+        "ms": 3.4690430002228823,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 20.94881199991505,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 25.878771499264985,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 28.914099999383325,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 24.37212099903263,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    },
+    {
+      "group": 100000,
+      "n": 10,
+      "AS-SNC": {
+        "ms": 3.5583595017669722,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 20.093051498406567,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 24.240157001258922,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 28.05686300052912,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 21.896860998822376,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": null,
+        "returned": 0,
+        "passes": 0
+      }
+    }
+  ],
+  "famafrench": [
+    {
+      "group": "FF-Ind12",
+      "n": 10,
+      "AS-SNC": {
+        "ms": 0.4816369983018376,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 6.137499000033131,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 5.789603499579243,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 5.643197999233962,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 6.392854498699307,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": 8.172996000212152,
+        "returned": 10,
+        "passes": 10
+      }
+    },
+    {
+      "group": "FF-All21",
+      "n": 10,
+      "AS-SNC": {
+        "ms": 0.4992085014237091,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 6.859408500531572,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 6.350846000714228,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 6.00082750133879,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 7.737534000625601,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": 10.2720095001132,
+        "returned": 10,
+        "passes": 10
+      }
+    },
+    {
+      "group": "FF-All30",
+      "n": 10,
+      "AS-SNC": {
+        "ms": 0.6837120017735288,
+        "returned": 10,
+        "passes": 10
+      },
+      "SCS": {
+        "ms": 7.06988099955197,
+        "returned": 10,
+        "passes": 10
+      },
+      "ECOS": {
+        "ms": 6.634603998463717,
+        "returned": 10,
+        "passes": 10
+      },
+      "CLARABEL": {
+        "ms": 6.217874999492778,
+        "returned": 10,
+        "passes": 10
+      },
+      "MOSEK": {
+        "ms": 7.737744501355337,
+        "returned": 10,
+        "passes": 10
+      },
+      "GUROBI": {
+        "ms": 10.947709999527433,
+        "returned": 10,
+        "passes": 10
+      }
+    }
+  ]
+}

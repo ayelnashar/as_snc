@@ -1,0 +1,13 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "disabled": {},
+  "blas_threads": 1,
+  "mosek_version": [
+    11,
+    2,
+    6
+  ]
+}
